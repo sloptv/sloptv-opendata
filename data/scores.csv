@@ -1,0 +1,519 @@
+model,model_slug,prompt,category,round,score_overall,score_fidelity,score_visual,score_physics,score_consistency,score_audio,attempts_until_usable,duration_s,resolution,has_audio,run_at,clip_page
+"FLUX 3",flux-3,hands-chopping-vegetables,hands,v1-fal-2026-10,3.83,4.00,4.50,3.00,,,1,8.04,1280x704,1,2026-10-04,https://sloptv.co/test/hands-chopping-vegetables
+"FLUX 3",flux-3,hands-counting-fingers,hands,v1-fal-2026-10,4.67,4.50,5.00,4.50,,,1,8.04,1280x704,1,2026-10-04,https://sloptv.co/test/hands-counting-fingers
+"FLUX 3",flux-3,hands-playing-guitar,hands,v1-fal-2026-10,5.00,5.00,5.00,5.00,,,1,8.04,1280x704,1,2026-10-04,https://sloptv.co/test/hands-playing-guitar
+"FLUX 3",flux-3,hands-tying-shoelaces,hands,v1-fal-2026-10,4.00,4.00,4.50,3.50,,,1,8.04,1280x704,1,2026-10-04,https://sloptv.co/test/hands-tying-shoelaces
+"FLUX 3",flux-3,face-crowd-background,faces,v1-fal-2026-10,4.67,4.50,5.00,,4.50,,1,8.04,1280x704,1,2026-10-04,https://sloptv.co/test/face-crowd-background
+"FLUX 3",flux-3,face-elderly-detail,faces,v1-fal-2026-10,5.00,5.00,5.00,,5.00,,1,8.04,1280x704,1,2026-10-04,https://sloptv.co/test/face-elderly-detail
+"FLUX 3",flux-3,face-glasses-reflection,faces,v1-fal-2026-10,4.83,5.00,5.00,,4.50,,1,8.04,1280x704,1,2026-10-04,https://sloptv.co/test/face-glasses-reflection
+"FLUX 3",flux-3,face-turn-smile,faces,v1-fal-2026-10,5.00,5.00,5.00,,5.00,,1,8.04,1280x704,1,2026-10-04,https://sloptv.co/test/face-turn-smile
+"FLUX 3",flux-3,liquid-coffee-pour,liquids,v1-fal-2026-10,5.00,5.00,5.00,5.00,,,1,8.04,1280x704,1,2026-10-04,https://sloptv.co/test/liquid-coffee-pour
+"FLUX 3",flux-3,liquid-honey-drizzle,liquids,v1-fal-2026-10,4.83,5.00,4.50,5.00,,,1,8.04,1280x704,1,2026-10-04,https://sloptv.co/test/liquid-honey-drizzle
+"FLUX 3",flux-3,liquid-ice-melt,liquids,v1-fal-2026-10,3.83,4.50,4.50,2.50,,,1,8.04,1280x704,1,2026-10-04,https://sloptv.co/test/liquid-ice-melt
+"FLUX 3",flux-3,liquid-wave-crash,liquids,v1-fal-2026-10,5.00,5.00,5.00,5.00,,,1,8.04,1280x704,1,2026-10-04,https://sloptv.co/test/liquid-wave-crash
+"FLUX 3",flux-3,text-book-page,text_render,v1-fal-2026-10,5.00,5.00,5.00,,5.00,,1,8.04,1280x704,1,2026-10-04,https://sloptv.co/test/text-book-page
+"FLUX 3",flux-3,text-neon-sign,text_render,v1-fal-2026-10,5.00,5.00,5.00,,5.00,,1,8.04,1280x704,1,2026-10-04,https://sloptv.co/test/text-neon-sign
+"FLUX 3",flux-3,text-shop-front,text_render,v1-fal-2026-10,5.00,5.00,5.00,,5.00,,1,8.04,1280x704,1,2026-10-04,https://sloptv.co/test/text-shop-front
+"FLUX 3",flux-3,text-tshirt,text_render,v1-fal-2026-10,5.00,5.00,5.00,,5.00,,1,8.04,1280x704,1,2026-10-04,https://sloptv.co/test/text-tshirt
+"FLUX 3",flux-3,multishot-cafe-conversation,multishot,v1-fal-2026-10,5.00,5.00,5.00,,5.00,,1,8.04,1280x704,1,2026-10-04,https://sloptv.co/test/multishot-cafe-conversation
+"FLUX 3",flux-3,multishot-day-night,multishot,v1-fal-2026-10,5.00,5.00,5.00,,5.00,,1,8.04,1280x704,1,2026-10-04,https://sloptv.co/test/multishot-day-night
+"FLUX 3",flux-3,multishot-product-reveal,multishot,v1-fal-2026-10,5.00,5.00,5.00,,5.00,,1,8.04,1280x704,1,2026-10-04,https://sloptv.co/test/multishot-product-reveal
+"FLUX 3",flux-3,multishot-street-follow,multishot,v1-fal-2026-10,5.00,5.00,5.00,,5.00,,1,8.04,1280x704,1,2026-10-04,https://sloptv.co/test/multishot-street-follow
+"FLUX 3",flux-3,lipsync-accent-phrase,lipsync,v1-fal-2026-10,5.00,5.00,5.00,,,5.00,1,8.04,1280x704,1,2026-10-04,https://sloptv.co/test/lipsync-accent-phrase
+"FLUX 3",flux-3,lipsync-direct-address,lipsync,v1-fal-2026-10,5.00,5.00,5.00,,,5.00,1,8.04,1280x704,1,2026-10-04,https://sloptv.co/test/lipsync-direct-address
+"FLUX 3",flux-3,lipsync-singing,lipsync,v1-fal-2026-10,5.00,5.00,5.00,,,5.00,1,8.04,1280x704,1,2026-10-04,https://sloptv.co/test/lipsync-singing
+"FLUX 3",flux-3,lipsync-two-speakers,lipsync,v1-fal-2026-10,5.00,5.00,5.00,,,5.00,1,8.04,1280x704,1,2026-10-04,https://sloptv.co/test/lipsync-two-speakers
+"FLUX 3",flux-3,camera-crane-up,camera,v1-fal-2026-10,5.00,5.00,5.00,5.00,,,1,8.04,1280x704,1,2026-10-04,https://sloptv.co/test/camera-crane-up
+"FLUX 3",flux-3,camera-dolly-in-door,camera,v1-fal-2026-10,5.00,5.00,5.00,5.00,,,1,8.04,1280x704,1,2026-10-04,https://sloptv.co/test/camera-dolly-in-door
+"FLUX 3",flux-3,camera-handheld-follow,camera,v1-fal-2026-10,5.00,5.00,5.00,5.00,,,1,8.04,1280x704,1,2026-10-04,https://sloptv.co/test/camera-handheld-follow
+"FLUX 3",flux-3,camera-orbit-subject,camera,v1-fal-2026-10,3.83,2.50,5.00,4.00,,,1,8.04,1280x704,1,2026-10-04,https://sloptv.co/test/camera-orbit-subject
+"FLUX 3",flux-3,animal-bird-takeoff,animals,v1-fal-2026-10,5.00,5.00,5.00,5.00,,,1,8.04,1280x704,1,2026-10-04,https://sloptv.co/test/animal-bird-takeoff
+"FLUX 3",flux-3,animal-cat-jump,animals,v1-fal-2026-10,4.67,5.00,4.50,4.50,,,1,8.04,1280x704,1,2026-10-04,https://sloptv.co/test/animal-cat-jump
+"FLUX 3",flux-3,animal-dog-shake,animals,v1-fal-2026-10,4.83,4.50,5.00,5.00,,,1,8.04,1280x704,1,2026-10-04,https://sloptv.co/test/animal-dog-shake
+"FLUX 3",flux-3,animal-horse-gallop,animals,v1-fal-2026-10,4.67,4.50,5.00,4.50,,,1,8.04,1280x704,1,2026-10-04,https://sloptv.co/test/animal-horse-gallop
+"FLUX 3",flux-3,style-anime-consistency,style,v1-fal-2026-10,4.67,4.00,5.00,,5.00,,1,8.04,1280x704,1,2026-10-04,https://sloptv.co/test/style-anime-consistency
+"FLUX 3",flux-3,style-claymation,style,v1-fal-2026-10,5.00,5.00,5.00,,5.00,,1,8.04,1280x704,1,2026-10-04,https://sloptv.co/test/style-claymation
+"FLUX 3",flux-3,style-film-grain,style,v1-fal-2026-10,5.00,5.00,5.00,,5.00,,1,8.04,1280x704,1,2026-10-04,https://sloptv.co/test/style-film-grain
+"FLUX 3",flux-3,style-product-rotate,style,v1-fal-2026-10,5.00,5.00,5.00,,5.00,,1,8.04,1280x704,1,2026-10-04,https://sloptv.co/test/style-product-rotate
+"FLUX 3",flux-3,i2v-landscape-motion,img2video,v1-fal-2026-10,5.00,5.00,5.00,,,,1,8.04,1280x704,1,2026-10-04,https://sloptv.co/test/i2v-landscape-motion
+"FLUX 3",flux-3,i2v-old-photo,img2video,v1-fal-2026-10,5.00,5.00,5.00,,,,1,8.04,1088x800,1,2026-10-04,https://sloptv.co/test/i2v-old-photo
+"FLUX 3",flux-3,i2v-portrait-animate,img2video,v1-fal-2026-10,5.00,5.00,5.00,,,,1,8.04,1280x704,1,2026-10-04,https://sloptv.co/test/i2v-portrait-animate
+"FLUX 3",flux-3,i2v-product-spin,img2video,v1-fal-2026-10,5.00,5.00,5.00,,,,1,8.04,960x960,1,2026-10-04,https://sloptv.co/test/i2v-product-spin
+"Google Gemini Omni",gemini-omni,hands-chopping-vegetables,hands,v1-magnific-2026-09,4.96,5.00,5.00,5.00,5.00,4.80,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/hands-chopping-vegetables
+"Google Gemini Omni",gemini-omni,hands-counting-fingers,hands,v1-magnific-2026-09,4.96,5.00,5.00,5.00,5.00,4.80,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/hands-counting-fingers
+"Google Gemini Omni",gemini-omni,hands-playing-guitar,hands,v1-magnific-2026-09,4.96,5.00,5.00,5.00,5.00,4.80,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/hands-playing-guitar
+"Google Gemini Omni",gemini-omni,hands-tying-shoelaces,hands,v1-magnific-2026-09,4.74,4.80,4.80,4.50,4.80,4.80,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/hands-tying-shoelaces
+"Google Gemini Omni",gemini-omni,face-crowd-background,faces,v1-magnific-2026-09,4.96,5.00,5.00,5.00,5.00,4.80,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/face-crowd-background
+"Google Gemini Omni",gemini-omni,face-elderly-detail,faces,v1-magnific-2026-09,4.96,5.00,5.00,5.00,5.00,4.80,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/face-elderly-detail
+"Google Gemini Omni",gemini-omni,face-glasses-reflection,faces,v1-magnific-2026-09,4.96,5.00,5.00,5.00,5.00,4.80,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/face-glasses-reflection
+"Google Gemini Omni",gemini-omni,face-turn-smile,faces,v1-magnific-2026-09,4.96,5.00,5.00,5.00,5.00,4.80,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/face-turn-smile
+"Google Gemini Omni",gemini-omni,liquid-coffee-pour,liquids,v1-magnific-2026-09,4.96,5.00,5.00,5.00,5.00,4.80,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/liquid-coffee-pour
+"Google Gemini Omni",gemini-omni,liquid-honey-drizzle,liquids,v1-magnific-2026-09,4.96,5.00,5.00,5.00,5.00,4.80,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/liquid-honey-drizzle
+"Google Gemini Omni",gemini-omni,liquid-ice-melt,liquids,v1-magnific-2026-09,4.48,4.50,4.30,4.30,4.50,4.80,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/liquid-ice-melt
+"Google Gemini Omni",gemini-omni,liquid-wave-crash,liquids,v1-magnific-2026-09,4.74,4.50,4.80,4.80,4.80,4.80,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/liquid-wave-crash
+"Google Gemini Omni",gemini-omni,text-book-page,text_render,v1-magnific-2026-09,4.74,4.30,4.80,5.00,4.80,4.80,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/text-book-page
+"Google Gemini Omni",gemini-omni,text-neon-sign,text_render,v1-magnific-2026-09,4.96,5.00,5.00,5.00,5.00,4.80,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/text-neon-sign
+"Google Gemini Omni",gemini-omni,text-shop-front,text_render,v1-magnific-2026-09,4.96,5.00,5.00,5.00,5.00,4.80,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/text-shop-front
+"Google Gemini Omni",gemini-omni,text-tshirt,text_render,v1-magnific-2026-09,4.96,5.00,5.00,5.00,5.00,4.80,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/text-tshirt
+"Google Gemini Omni",gemini-omni,multishot-cafe-conversation,multishot,v1-magnific-2026-09,4.96,5.00,5.00,5.00,5.00,4.80,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/multishot-cafe-conversation
+"Google Gemini Omni",gemini-omni,multishot-day-night,multishot,v1-magnific-2026-09,4.96,5.00,5.00,5.00,5.00,4.80,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/multishot-day-night
+"Google Gemini Omni",gemini-omni,multishot-product-reveal,multishot,v1-magnific-2026-09,4.96,5.00,5.00,5.00,5.00,4.80,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/multishot-product-reveal
+"Google Gemini Omni",gemini-omni,multishot-street-follow,multishot,v1-magnific-2026-09,4.96,5.00,5.00,5.00,5.00,4.80,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/multishot-street-follow
+"Google Gemini Omni",gemini-omni,lipsync-accent-phrase,lipsync,v1-magnific-2026-09,5.00,5.00,5.00,5.00,5.00,5.00,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/lipsync-accent-phrase
+"Google Gemini Omni",gemini-omni,lipsync-direct-address,lipsync,v1-magnific-2026-09,4.96,4.80,5.00,5.00,5.00,5.00,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/lipsync-direct-address
+"Google Gemini Omni",gemini-omni,lipsync-singing,lipsync,v1-magnific-2026-09,5.00,5.00,5.00,5.00,5.00,5.00,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/lipsync-singing
+"Google Gemini Omni",gemini-omni,lipsync-two-speakers,lipsync,v1-magnific-2026-09,5.00,5.00,5.00,5.00,5.00,5.00,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/lipsync-two-speakers
+"Google Gemini Omni",gemini-omni,camera-crane-up,camera,v1-magnific-2026-09,4.96,5.00,5.00,5.00,5.00,4.80,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/camera-crane-up
+"Google Gemini Omni",gemini-omni,camera-dolly-in-door,camera,v1-magnific-2026-09,4.96,5.00,5.00,5.00,5.00,4.80,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/camera-dolly-in-door
+"Google Gemini Omni",gemini-omni,camera-handheld-follow,camera,v1-magnific-2026-09,4.96,5.00,5.00,5.00,5.00,4.80,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/camera-handheld-follow
+"Google Gemini Omni",gemini-omni,camera-orbit-subject,camera,v1-magnific-2026-09,4.96,5.00,5.00,5.00,5.00,4.80,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/camera-orbit-subject
+"Google Gemini Omni",gemini-omni,animal-bird-takeoff,animals,v1-magnific-2026-09,4.96,5.00,5.00,5.00,5.00,4.80,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/animal-bird-takeoff
+"Google Gemini Omni",gemini-omni,animal-cat-jump,animals,v1-magnific-2026-09,4.52,4.50,4.50,4.30,4.50,4.80,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/animal-cat-jump
+"Google Gemini Omni",gemini-omni,animal-dog-shake,animals,v1-magnific-2026-09,4.96,5.00,5.00,5.00,5.00,4.80,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/animal-dog-shake
+"Google Gemini Omni",gemini-omni,animal-horse-gallop,animals,v1-magnific-2026-09,4.46,4.50,4.50,4.00,4.50,4.80,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/animal-horse-gallop
+"Google Gemini Omni",gemini-omni,style-anime-consistency,style,v1-magnific-2026-09,4.96,5.00,5.00,5.00,5.00,4.80,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/style-anime-consistency
+"Google Gemini Omni",gemini-omni,style-claymation,style,v1-magnific-2026-09,4.96,5.00,5.00,5.00,5.00,4.80,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/style-claymation
+"Google Gemini Omni",gemini-omni,style-film-grain,style,v1-magnific-2026-09,4.96,5.00,5.00,5.00,5.00,4.80,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/style-film-grain
+"Google Gemini Omni",gemini-omni,style-product-rotate,style,v1-magnific-2026-09,4.96,5.00,5.00,5.00,5.00,4.80,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/style-product-rotate
+"Google Gemini Omni",gemini-omni,i2v-landscape-motion,img2video,v1-magnific-2026-09,4.96,5.00,5.00,5.00,5.00,4.80,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/i2v-landscape-motion
+"Google Gemini Omni",gemini-omni,i2v-old-photo,img2video,v1-magnific-2026-09,4.96,5.00,5.00,5.00,5.00,4.80,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/i2v-old-photo
+"Google Gemini Omni",gemini-omni,i2v-portrait-animate,img2video,v1-magnific-2026-09,4.96,5.00,5.00,5.00,5.00,4.80,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/i2v-portrait-animate
+"Google Gemini Omni",gemini-omni,i2v-product-spin,img2video,v1-magnific-2026-09,4.96,5.00,5.00,5.00,5.00,4.80,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/i2v-product-spin
+"Grok Video",grok-video,hands-chopping-vegetables,hands,v1-magnific-2026-09,2.67,2.50,3.00,2.50,,,1,8.04,1280x720,1,2026-09-12,https://sloptv.co/test/hands-chopping-vegetables
+"Grok Video",grok-video,hands-counting-fingers,hands,v1-magnific-2026-09,2.50,2.50,3.00,2.00,,,1,8.04,1280x720,1,2026-09-12,https://sloptv.co/test/hands-counting-fingers
+"Grok Video",grok-video,hands-playing-guitar,hands,v1-magnific-2026-09,4.50,4.50,4.50,4.50,,,1,8.04,1280x720,1,2026-09-12,https://sloptv.co/test/hands-playing-guitar
+"Grok Video",grok-video,hands-tying-shoelaces,hands,v1-magnific-2026-09,4.17,4.50,4.50,3.50,,,1,8.04,1280x720,1,2026-09-12,https://sloptv.co/test/hands-tying-shoelaces
+"Grok Video",grok-video,face-crowd-background,faces,v1-magnific-2026-09,4.67,4.50,4.50,,5.00,,1,8.04,1280x720,1,2026-09-12,https://sloptv.co/test/face-crowd-background
+"Grok Video",grok-video,face-elderly-detail,faces,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,1,8.04,1280x720,1,2026-09-12,https://sloptv.co/test/face-elderly-detail
+"Grok Video",grok-video,face-glasses-reflection,faces,v1-magnific-2026-09,4.33,4.00,4.50,,4.50,,1,8.04,1280x720,1,2026-09-12,https://sloptv.co/test/face-glasses-reflection
+"Grok Video",grok-video,face-turn-smile,faces,v1-magnific-2026-09,4.17,4.00,4.00,,4.50,,1,8.04,1280x720,1,2026-09-12,https://sloptv.co/test/face-turn-smile
+"Grok Video",grok-video,liquid-coffee-pour,liquids,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,1,8.04,1280x720,1,2026-09-12,https://sloptv.co/test/liquid-coffee-pour
+"Grok Video",grok-video,liquid-honey-drizzle,liquids,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,1,8.04,1280x720,1,2026-09-12,https://sloptv.co/test/liquid-honey-drizzle
+"Grok Video",grok-video,liquid-ice-melt,liquids,v1-magnific-2026-09,4.33,4.50,4.50,4.00,,,1,8.04,1280x720,1,2026-09-12,https://sloptv.co/test/liquid-ice-melt
+"Grok Video",grok-video,liquid-wave-crash,liquids,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,1,8.04,1280x720,1,2026-09-12,https://sloptv.co/test/liquid-wave-crash
+"Grok Video",grok-video,text-book-page,text_render,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,1,8.04,1280x720,1,2026-09-12,https://sloptv.co/test/text-book-page
+"Grok Video",grok-video,text-neon-sign,text_render,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,1,8.04,1280x720,1,2026-09-12,https://sloptv.co/test/text-neon-sign
+"Grok Video",grok-video,text-shop-front,text_render,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,1,8.04,1280x720,1,2026-09-12,https://sloptv.co/test/text-shop-front
+"Grok Video",grok-video,text-tshirt,text_render,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,1,8.04,1280x720,1,2026-09-12,https://sloptv.co/test/text-tshirt
+"Grok Video",grok-video,multishot-cafe-conversation,multishot,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,1,8.04,1280x720,1,2026-09-12,https://sloptv.co/test/multishot-cafe-conversation
+"Grok Video",grok-video,multishot-day-night,multishot,v1-magnific-2026-09,3.83,3.00,4.50,,4.00,,1,8.04,1280x720,1,2026-09-12,https://sloptv.co/test/multishot-day-night
+"Grok Video",grok-video,multishot-product-reveal,multishot,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,1,8.04,1280x720,1,2026-09-12,https://sloptv.co/test/multishot-product-reveal
+"Grok Video",grok-video,multishot-street-follow,multishot,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,1,8.04,1280x720,1,2026-09-12,https://sloptv.co/test/multishot-street-follow
+"Grok Video",grok-video,lipsync-accent-phrase,lipsync,v1-magnific-2026-09,5.00,5.00,5.00,,,5.00,1,8.04,1280x720,1,2026-09-12,https://sloptv.co/test/lipsync-accent-phrase
+"Grok Video",grok-video,lipsync-direct-address,lipsync,v1-magnific-2026-09,5.00,5.00,5.00,,,5.00,1,8.04,1280x720,1,2026-09-12,https://sloptv.co/test/lipsync-direct-address
+"Grok Video",grok-video,lipsync-singing,lipsync,v1-magnific-2026-09,5.00,5.00,5.00,,,5.00,1,8.04,1280x720,1,2026-09-12,https://sloptv.co/test/lipsync-singing
+"Grok Video",grok-video,lipsync-two-speakers,lipsync,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,5.00,1,8.04,1280x720,1,2026-09-12,https://sloptv.co/test/lipsync-two-speakers
+"Grok Video",grok-video,camera-crane-up,camera,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,1,8.04,1280x720,1,2026-09-12,https://sloptv.co/test/camera-crane-up
+"Grok Video",grok-video,camera-dolly-in-door,camera,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,1,8.04,1280x720,1,2026-09-12,https://sloptv.co/test/camera-dolly-in-door
+"Grok Video",grok-video,camera-handheld-follow,camera,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,1,8.04,1280x720,1,2026-09-12,https://sloptv.co/test/camera-handheld-follow
+"Grok Video",grok-video,camera-orbit-subject,camera,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,1,8.04,1280x720,1,2026-09-12,https://sloptv.co/test/camera-orbit-subject
+"Grok Video",grok-video,animal-bird-takeoff,animals,v1-magnific-2026-09,4.33,4.50,4.50,4.00,,,1,8.04,1280x720,1,2026-09-12,https://sloptv.co/test/animal-bird-takeoff
+"Grok Video",grok-video,animal-cat-jump,animals,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,1,8.04,1280x720,1,2026-09-12,https://sloptv.co/test/animal-cat-jump
+"Grok Video",grok-video,animal-dog-shake,animals,v1-magnific-2026-09,4.50,4.50,4.50,4.50,,,1,8.04,1280x720,1,2026-09-12,https://sloptv.co/test/animal-dog-shake
+"Grok Video",grok-video,animal-horse-gallop,animals,v1-magnific-2026-09,4.33,4.50,4.50,4.00,,,1,8.04,1280x720,1,2026-09-12,https://sloptv.co/test/animal-horse-gallop
+"Grok Video",grok-video,style-anime-consistency,style,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,1,8.04,1280x720,1,2026-09-12,https://sloptv.co/test/style-anime-consistency
+"Grok Video",grok-video,style-claymation,style,v1-magnific-2026-09,4.83,5.00,5.00,,4.50,,1,8.04,1280x720,1,2026-09-12,https://sloptv.co/test/style-claymation
+"Grok Video",grok-video,style-film-grain,style,v1-magnific-2026-09,3.83,4.50,4.50,,2.50,,1,8.04,1280x720,1,2026-09-12,https://sloptv.co/test/style-film-grain
+"Grok Video",grok-video,style-product-rotate,style,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,1,8.04,1280x720,1,2026-09-12,https://sloptv.co/test/style-product-rotate
+"Grok Video",grok-video,i2v-landscape-motion,img2video,v1-magnific-2026-09,5.00,5.00,5.00,,,,1,8.04,1280x720,1,2026-09-12,https://sloptv.co/test/i2v-landscape-motion
+"Grok Video",grok-video,i2v-old-photo,img2video,v1-magnific-2026-09,5.00,5.00,5.00,,,,1,8.04,1104x832,1,2026-09-12,https://sloptv.co/test/i2v-old-photo
+"Grok Video",grok-video,i2v-portrait-animate,img2video,v1-magnific-2026-09,5.00,5.00,5.00,,,,1,8.04,1280x720,1,2026-09-12,https://sloptv.co/test/i2v-portrait-animate
+"Grok Video",grok-video,i2v-product-spin,img2video,v1-magnific-2026-09,5.00,5.00,5.00,,,,1,8.04,960x960,1,2026-09-12,https://sloptv.co/test/i2v-product-spin
+"MiniMax Hailuo 02",hailuo-02,hands-chopping-vegetables,hands,v1-magnific-2026-09,3.83,4.00,4.00,3.50,,,,5.88,1920x1080,0,2026-09-14,https://sloptv.co/test/hands-chopping-vegetables
+"MiniMax Hailuo 02",hailuo-02,hands-counting-fingers,hands,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,,5.88,1920x1080,0,2026-09-14,https://sloptv.co/test/hands-counting-fingers
+"MiniMax Hailuo 02",hailuo-02,hands-playing-guitar,hands,v1-magnific-2026-09,3.50,4.00,3.00,3.50,,,,5.88,1920x1080,0,2026-09-14,https://sloptv.co/test/hands-playing-guitar
+"MiniMax Hailuo 02",hailuo-02,hands-tying-shoelaces,hands,v1-magnific-2026-09,4.33,4.50,4.50,4.00,,,,5.88,1920x1080,0,2026-09-14,https://sloptv.co/test/hands-tying-shoelaces
+"MiniMax Hailuo 02",hailuo-02,face-crowd-background,faces,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,,5.88,1920x1080,0,2026-09-14,https://sloptv.co/test/face-crowd-background
+"MiniMax Hailuo 02",hailuo-02,face-elderly-detail,faces,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,,5.88,1920x1080,0,2026-09-14,https://sloptv.co/test/face-elderly-detail
+"MiniMax Hailuo 02",hailuo-02,face-glasses-reflection,faces,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,,5.88,1920x1080,0,2026-09-14,https://sloptv.co/test/face-glasses-reflection
+"MiniMax Hailuo 02",hailuo-02,face-turn-smile,faces,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,,5.88,1920x1080,0,2026-09-14,https://sloptv.co/test/face-turn-smile
+"MiniMax Hailuo 02",hailuo-02,liquid-coffee-pour,liquids,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,,5.88,1920x1080,0,2026-09-14,https://sloptv.co/test/liquid-coffee-pour
+"MiniMax Hailuo 02",hailuo-02,liquid-honey-drizzle,liquids,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,,5.88,1920x1080,0,2026-09-14,https://sloptv.co/test/liquid-honey-drizzle
+"MiniMax Hailuo 02",hailuo-02,liquid-ice-melt,liquids,v1-magnific-2026-09,1.67,1.50,2.50,1.00,,,,5.88,1920x1080,0,2026-09-14,https://sloptv.co/test/liquid-ice-melt
+"MiniMax Hailuo 02",hailuo-02,liquid-wave-crash,liquids,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,,5.88,1920x1080,0,2026-09-14,https://sloptv.co/test/liquid-wave-crash
+"MiniMax Hailuo 02",hailuo-02,text-book-page,text_render,v1-magnific-2026-09,2.83,2.00,3.50,,3.00,,,5.88,1920x1080,0,2026-09-14,https://sloptv.co/test/text-book-page
+"MiniMax Hailuo 02",hailuo-02,text-neon-sign,text_render,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,,5.88,1920x1080,0,2026-09-14,https://sloptv.co/test/text-neon-sign
+"MiniMax Hailuo 02",hailuo-02,text-shop-front,text_render,v1-magnific-2026-09,2.67,1.50,3.50,,3.00,,,5.88,1920x1080,0,2026-09-14,https://sloptv.co/test/text-shop-front
+"MiniMax Hailuo 02",hailuo-02,text-tshirt,text_render,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,,5.88,1920x1080,0,2026-09-14,https://sloptv.co/test/text-tshirt
+"MiniMax Hailuo 02",hailuo-02,multishot-cafe-conversation,multishot,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,,5.88,1920x1080,0,2026-09-14,https://sloptv.co/test/multishot-cafe-conversation
+"MiniMax Hailuo 02",hailuo-02,multishot-day-night,multishot,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,,5.88,1920x1080,0,2026-09-14,https://sloptv.co/test/multishot-day-night
+"MiniMax Hailuo 02",hailuo-02,multishot-product-reveal,multishot,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,,5.88,1920x1080,0,2026-09-14,https://sloptv.co/test/multishot-product-reveal
+"MiniMax Hailuo 02",hailuo-02,multishot-street-follow,multishot,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,,5.88,1920x1080,0,2026-09-14,https://sloptv.co/test/multishot-street-follow
+"MiniMax Hailuo 02",hailuo-02,lipsync-accent-phrase,lipsync,v1-magnific-2026-09,0.50,0.50,1.00,,,0.00,,5.88,1920x1080,0,2026-09-14,https://sloptv.co/test/lipsync-accent-phrase
+"MiniMax Hailuo 02",hailuo-02,lipsync-direct-address,lipsync,v1-magnific-2026-09,0.83,1.00,1.50,,,0.00,,5.88,1920x1080,0,2026-09-14,https://sloptv.co/test/lipsync-direct-address
+"MiniMax Hailuo 02",hailuo-02,lipsync-singing,lipsync,v1-magnific-2026-09,1.17,1.50,2.00,,,0.00,,5.88,1920x1080,0,2026-09-14,https://sloptv.co/test/lipsync-singing
+"MiniMax Hailuo 02",hailuo-02,lipsync-two-speakers,lipsync,v1-magnific-2026-09,0.83,1.00,1.50,,,0.00,,5.88,1920x1080,0,2026-09-14,https://sloptv.co/test/lipsync-two-speakers
+"MiniMax Hailuo 02",hailuo-02,camera-crane-up,camera,v1-magnific-2026-09,2.67,2.00,4.00,2.00,,,,5.88,1920x1080,0,2026-09-14,https://sloptv.co/test/camera-crane-up
+"MiniMax Hailuo 02",hailuo-02,camera-dolly-in-door,camera,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,,5.88,1920x1080,0,2026-09-14,https://sloptv.co/test/camera-dolly-in-door
+"MiniMax Hailuo 02",hailuo-02,camera-handheld-follow,camera,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,,5.88,1920x1080,0,2026-09-14,https://sloptv.co/test/camera-handheld-follow
+"MiniMax Hailuo 02",hailuo-02,camera-orbit-subject,camera,v1-magnific-2026-09,1.83,1.50,3.00,1.00,,,,5.88,1920x1080,0,2026-09-14,https://sloptv.co/test/camera-orbit-subject
+"MiniMax Hailuo 02",hailuo-02,animal-bird-takeoff,animals,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,,5.88,1920x1080,0,2026-09-14,https://sloptv.co/test/animal-bird-takeoff
+"MiniMax Hailuo 02",hailuo-02,animal-cat-jump,animals,v1-magnific-2026-09,1.67,1.50,2.50,1.00,,,,5.88,1920x1080,0,2026-09-14,https://sloptv.co/test/animal-cat-jump
+"MiniMax Hailuo 02",hailuo-02,animal-dog-shake,animals,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,,5.88,1920x1080,0,2026-09-14,https://sloptv.co/test/animal-dog-shake
+"MiniMax Hailuo 02",hailuo-02,animal-horse-gallop,animals,v1-magnific-2026-09,3.17,3.50,3.50,2.50,,,,5.88,1920x1080,0,2026-09-14,https://sloptv.co/test/animal-horse-gallop
+"MiniMax Hailuo 02",hailuo-02,style-anime-consistency,style,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,,5.88,1920x1080,0,2026-09-14,https://sloptv.co/test/style-anime-consistency
+"MiniMax Hailuo 02",hailuo-02,style-claymation,style,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,,5.88,1920x1080,0,2026-09-14,https://sloptv.co/test/style-claymation
+"MiniMax Hailuo 02",hailuo-02,style-film-grain,style,v1-magnific-2026-09,3.50,3.00,3.50,,4.00,,,5.88,1920x1080,0,2026-09-14,https://sloptv.co/test/style-film-grain
+"MiniMax Hailuo 02",hailuo-02,style-product-rotate,style,v1-magnific-2026-09,2.33,2.00,3.00,,2.00,,,5.88,1920x1080,0,2026-09-14,https://sloptv.co/test/style-product-rotate
+"MiniMax Hailuo 02",hailuo-02,i2v-landscape-motion,img2video,v1-magnific-2026-09,5.00,5.00,5.00,,,,,5.88,1920x1080,0,2026-09-14,https://sloptv.co/test/i2v-landscape-motion
+"MiniMax Hailuo 02",hailuo-02,i2v-old-photo,img2video,v1-magnific-2026-09,5.00,5.00,5.00,,,,,5.88,1920x1080,0,2026-09-14,https://sloptv.co/test/i2v-old-photo
+"MiniMax Hailuo 02",hailuo-02,i2v-portrait-animate,img2video,v1-magnific-2026-09,5.00,5.00,5.00,,,,,5.88,1920x1080,0,2026-09-14,https://sloptv.co/test/i2v-portrait-animate
+"MiniMax Hailuo 02",hailuo-02,i2v-product-spin,img2video,v1-magnific-2026-09,5.00,5.00,5.00,,,,,5.88,1920x1080,0,2026-09-14,https://sloptv.co/test/i2v-product-spin
+"MiniMax H3",hailuo-h3,hands-chopping-vegetables,hands,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,,8.00,2560x1440,1,2026-09-14,https://sloptv.co/test/hands-chopping-vegetables
+"MiniMax H3",hailuo-h3,hands-counting-fingers,hands,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,,8.00,2560x1440,1,2026-09-14,https://sloptv.co/test/hands-counting-fingers
+"MiniMax H3",hailuo-h3,hands-playing-guitar,hands,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,,8.00,2560x1440,1,2026-09-14,https://sloptv.co/test/hands-playing-guitar
+"MiniMax H3",hailuo-h3,hands-tying-shoelaces,hands,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,,8.00,2560x1440,1,2026-09-14,https://sloptv.co/test/hands-tying-shoelaces
+"MiniMax H3",hailuo-h3,face-crowd-background,faces,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,,8.00,2560x1440,1,2026-09-14,https://sloptv.co/test/face-crowd-background
+"MiniMax H3",hailuo-h3,face-elderly-detail,faces,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,,8.00,2560x1440,1,2026-09-14,https://sloptv.co/test/face-elderly-detail
+"MiniMax H3",hailuo-h3,face-glasses-reflection,faces,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,,8.00,2560x1440,1,2026-09-14,https://sloptv.co/test/face-glasses-reflection
+"MiniMax H3",hailuo-h3,face-turn-smile,faces,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,,8.00,2560x1440,1,2026-09-14,https://sloptv.co/test/face-turn-smile
+"MiniMax H3",hailuo-h3,liquid-coffee-pour,liquids,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,,8.00,2560x1440,1,2026-09-14,https://sloptv.co/test/liquid-coffee-pour
+"MiniMax H3",hailuo-h3,liquid-honey-drizzle,liquids,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,,8.00,2560x1440,1,2026-09-14,https://sloptv.co/test/liquid-honey-drizzle
+"MiniMax H3",hailuo-h3,liquid-ice-melt,liquids,v1-magnific-2026-09,2.00,2.00,3.00,1.00,,,,8.00,2560x1440,1,2026-09-14,https://sloptv.co/test/liquid-ice-melt
+"MiniMax H3",hailuo-h3,liquid-wave-crash,liquids,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,,8.00,2560x1440,1,2026-09-14,https://sloptv.co/test/liquid-wave-crash
+"MiniMax H3",hailuo-h3,text-book-page,text_render,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,,8.00,2560x1440,1,2026-09-14,https://sloptv.co/test/text-book-page
+"MiniMax H3",hailuo-h3,text-neon-sign,text_render,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,,8.00,2560x1440,1,2026-09-14,https://sloptv.co/test/text-neon-sign
+"MiniMax H3",hailuo-h3,text-shop-front,text_render,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,,8.00,2560x1440,1,2026-09-14,https://sloptv.co/test/text-shop-front
+"MiniMax H3",hailuo-h3,text-tshirt,text_render,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,,8.00,2560x1440,1,2026-09-14,https://sloptv.co/test/text-tshirt
+"MiniMax H3",hailuo-h3,multishot-cafe-conversation,multishot,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,,8.00,2560x1440,1,2026-09-14,https://sloptv.co/test/multishot-cafe-conversation
+"MiniMax H3",hailuo-h3,multishot-day-night,multishot,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,,8.00,2560x1440,1,2026-09-14,https://sloptv.co/test/multishot-day-night
+"MiniMax H3",hailuo-h3,multishot-product-reveal,multishot,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,,8.00,2560x1440,1,2026-09-14,https://sloptv.co/test/multishot-product-reveal
+"MiniMax H3",hailuo-h3,multishot-street-follow,multishot,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,,8.00,2560x1440,1,2026-09-14,https://sloptv.co/test/multishot-street-follow
+"MiniMax H3",hailuo-h3,lipsync-accent-phrase,lipsync,v1-magnific-2026-09,5.00,5.00,5.00,,,5.00,,8.00,2560x1440,1,2026-09-14,https://sloptv.co/test/lipsync-accent-phrase
+"MiniMax H3",hailuo-h3,lipsync-direct-address,lipsync,v1-magnific-2026-09,5.00,5.00,5.00,,,5.00,,8.00,2560x1440,1,2026-09-14,https://sloptv.co/test/lipsync-direct-address
+"MiniMax H3",hailuo-h3,lipsync-singing,lipsync,v1-magnific-2026-09,5.00,5.00,5.00,,,5.00,,8.00,2560x1440,1,2026-09-14,https://sloptv.co/test/lipsync-singing
+"MiniMax H3",hailuo-h3,lipsync-two-speakers,lipsync,v1-magnific-2026-09,5.00,5.00,5.00,,,5.00,,8.00,2560x1440,1,2026-09-14,https://sloptv.co/test/lipsync-two-speakers
+"MiniMax H3",hailuo-h3,camera-crane-up,camera,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,,8.00,2560x1440,1,2026-09-14,https://sloptv.co/test/camera-crane-up
+"MiniMax H3",hailuo-h3,camera-dolly-in-door,camera,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,,8.00,2560x1440,1,2026-09-14,https://sloptv.co/test/camera-dolly-in-door
+"MiniMax H3",hailuo-h3,camera-handheld-follow,camera,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,,8.00,2560x1440,1,2026-09-14,https://sloptv.co/test/camera-handheld-follow
+"MiniMax H3",hailuo-h3,camera-orbit-subject,camera,v1-magnific-2026-09,2.17,2.00,3.00,1.50,,,,8.00,2560x1440,1,2026-09-14,https://sloptv.co/test/camera-orbit-subject
+"MiniMax H3",hailuo-h3,animal-bird-takeoff,animals,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,,8.00,2560x1440,1,2026-09-14,https://sloptv.co/test/animal-bird-takeoff
+"MiniMax H3",hailuo-h3,animal-cat-jump,animals,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,,8.00,2560x1440,1,2026-09-14,https://sloptv.co/test/animal-cat-jump
+"MiniMax H3",hailuo-h3,animal-dog-shake,animals,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,,8.00,2560x1440,1,2026-09-14,https://sloptv.co/test/animal-dog-shake
+"MiniMax H3",hailuo-h3,animal-horse-gallop,animals,v1-magnific-2026-09,3.17,3.50,3.50,2.50,,,,8.00,2560x1440,1,2026-09-14,https://sloptv.co/test/animal-horse-gallop
+"MiniMax H3",hailuo-h3,style-anime-consistency,style,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,,8.00,2560x1440,1,2026-09-14,https://sloptv.co/test/style-anime-consistency
+"MiniMax H3",hailuo-h3,style-claymation,style,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,,8.00,2560x1440,1,2026-09-14,https://sloptv.co/test/style-claymation
+"MiniMax H3",hailuo-h3,style-film-grain,style,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,,8.00,2560x1440,1,2026-09-14,https://sloptv.co/test/style-film-grain
+"MiniMax H3",hailuo-h3,style-product-rotate,style,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,,8.00,2560x1440,1,2026-09-14,https://sloptv.co/test/style-product-rotate
+"MiniMax H3",hailuo-h3,i2v-landscape-motion,img2video,v1-magnific-2026-09,5.00,5.00,5.00,,,,,8.00,2560x1440,1,2026-09-14,https://sloptv.co/test/i2v-landscape-motion
+"MiniMax H3",hailuo-h3,i2v-old-photo,img2video,v1-magnific-2026-09,5.00,5.00,5.00,,,,,8.00,2560x1440,1,2026-09-14,https://sloptv.co/test/i2v-old-photo
+"MiniMax H3",hailuo-h3,i2v-portrait-animate,img2video,v1-magnific-2026-09,5.00,5.00,5.00,,,,,8.00,2560x1440,1,2026-09-14,https://sloptv.co/test/i2v-portrait-animate
+"MiniMax H3",hailuo-h3,i2v-product-spin,img2video,v1-magnific-2026-09,5.00,5.00,5.00,,,,,8.00,2560x1440,1,2026-09-14,https://sloptv.co/test/i2v-product-spin
+"Kling 3.0",kling-3-0,hands-chopping-vegetables,hands,v1-magnific-2026-09,2.83,3.00,3.50,2.00,,,1,8.04,1920x1080,0,2026-09-12,https://sloptv.co/test/hands-chopping-vegetables
+"Kling 3.0",kling-3-0,hands-counting-fingers,hands,v1-magnific-2026-09,3.17,3.00,3.50,3.00,,,1,8.04,1920x1080,0,2026-09-12,https://sloptv.co/test/hands-counting-fingers
+"Kling 3.0",kling-3-0,hands-playing-guitar,hands,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,1,8.04,1920x1080,0,2026-09-12,https://sloptv.co/test/hands-playing-guitar
+"Kling 3.0",kling-3-0,hands-tying-shoelaces,hands,v1-magnific-2026-09,4.17,4.50,4.50,3.50,,,1,8.04,1920x1080,0,2026-09-12,https://sloptv.co/test/hands-tying-shoelaces
+"Kling 3.0",kling-3-0,face-crowd-background,faces,v1-magnific-2026-09,4.83,5.00,4.50,,5.00,,1,8.04,1920x1080,0,2026-09-12,https://sloptv.co/test/face-crowd-background
+"Kling 3.0",kling-3-0,face-elderly-detail,faces,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,1,8.04,1920x1080,0,2026-09-12,https://sloptv.co/test/face-elderly-detail
+"Kling 3.0",kling-3-0,face-glasses-reflection,faces,v1-magnific-2026-09,4.33,4.00,4.50,,4.50,,1,8.04,1920x1080,0,2026-09-12,https://sloptv.co/test/face-glasses-reflection
+"Kling 3.0",kling-3-0,face-turn-smile,faces,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,1,8.04,1920x1080,0,2026-09-12,https://sloptv.co/test/face-turn-smile
+"Kling 3.0",kling-3-0,liquid-coffee-pour,liquids,v1-magnific-2026-09,4.50,4.50,4.50,4.50,,,1,8.04,1920x1080,0,2026-09-12,https://sloptv.co/test/liquid-coffee-pour
+"Kling 3.0",kling-3-0,liquid-honey-drizzle,liquids,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,1,8.04,1920x1080,0,2026-09-12,https://sloptv.co/test/liquid-honey-drizzle
+"Kling 3.0",kling-3-0,liquid-ice-melt,liquids,v1-magnific-2026-09,3.83,4.00,4.00,3.50,,,1,8.04,1920x1080,0,2026-09-12,https://sloptv.co/test/liquid-ice-melt
+"Kling 3.0",kling-3-0,liquid-wave-crash,liquids,v1-magnific-2026-09,4.50,4.50,4.50,4.50,,,1,8.04,1920x1080,0,2026-09-12,https://sloptv.co/test/liquid-wave-crash
+"Kling 3.0",kling-3-0,text-book-page,text_render,v1-magnific-2026-09,3.67,2.00,4.50,,4.50,,1,8.04,1920x1080,0,2026-09-12,https://sloptv.co/test/text-book-page
+"Kling 3.0",kling-3-0,text-neon-sign,text_render,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,1,8.04,1920x1080,0,2026-09-12,https://sloptv.co/test/text-neon-sign
+"Kling 3.0",kling-3-0,text-shop-front,text_render,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,1,8.04,1920x1080,0,2026-09-12,https://sloptv.co/test/text-shop-front
+"Kling 3.0",kling-3-0,text-tshirt,text_render,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,1,8.04,1920x1080,0,2026-09-12,https://sloptv.co/test/text-tshirt
+"Kling 3.0",kling-3-0,multishot-cafe-conversation,multishot,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,1,8.04,1920x1080,0,2026-09-12,https://sloptv.co/test/multishot-cafe-conversation
+"Kling 3.0",kling-3-0,multishot-day-night,multishot,v1-magnific-2026-09,3.83,2.50,4.00,,5.00,,1,8.04,1920x1080,0,2026-09-12,https://sloptv.co/test/multishot-day-night
+"Kling 3.0",kling-3-0,multishot-product-reveal,multishot,v1-magnific-2026-09,4.50,4.00,4.50,,5.00,,1,8.04,1920x1080,0,2026-09-12,https://sloptv.co/test/multishot-product-reveal
+"Kling 3.0",kling-3-0,multishot-street-follow,multishot,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,1,8.04,1920x1080,0,2026-09-12,https://sloptv.co/test/multishot-street-follow
+"Kling 3.0",kling-3-0,lipsync-accent-phrase,lipsync,v1-magnific-2026-09,3.75,3.00,4.50,,,,1,8.04,1920x1080,0,2026-09-12,https://sloptv.co/test/lipsync-accent-phrase
+"Kling 3.0",kling-3-0,lipsync-direct-address,lipsync,v1-magnific-2026-09,3.75,3.00,4.50,,,,1,8.04,1920x1080,0,2026-09-12,https://sloptv.co/test/lipsync-direct-address
+"Kling 3.0",kling-3-0,lipsync-singing,lipsync,v1-magnific-2026-09,3.75,3.00,4.50,,,,1,8.04,1920x1080,0,2026-09-12,https://sloptv.co/test/lipsync-singing
+"Kling 3.0",kling-3-0,lipsync-two-speakers,lipsync,v1-magnific-2026-09,3.83,3.00,4.50,,4.00,,1,8.04,1920x1080,0,2026-09-12,https://sloptv.co/test/lipsync-two-speakers
+"Kling 3.0",kling-3-0,camera-crane-up,camera,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,1,8.04,1920x1080,0,2026-09-12,https://sloptv.co/test/camera-crane-up
+"Kling 3.0",kling-3-0,camera-dolly-in-door,camera,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,1,8.04,1920x1080,0,2026-09-12,https://sloptv.co/test/camera-dolly-in-door
+"Kling 3.0",kling-3-0,camera-handheld-follow,camera,v1-magnific-2026-09,4.17,4.00,4.50,4.00,,,1,8.04,1920x1080,0,2026-09-12,https://sloptv.co/test/camera-handheld-follow
+"Kling 3.0",kling-3-0,camera-orbit-subject,camera,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,1,8.04,1920x1080,0,2026-09-12,https://sloptv.co/test/camera-orbit-subject
+"Kling 3.0",kling-3-0,animal-bird-takeoff,animals,v1-magnific-2026-09,4.17,4.00,4.50,4.00,,,1,8.04,1920x1080,0,2026-09-12,https://sloptv.co/test/animal-bird-takeoff
+"Kling 3.0",kling-3-0,animal-cat-jump,animals,v1-magnific-2026-09,3.50,4.00,4.50,2.00,,,1,8.04,1920x1080,0,2026-09-12,https://sloptv.co/test/animal-cat-jump
+"Kling 3.0",kling-3-0,animal-dog-shake,animals,v1-magnific-2026-09,4.33,4.50,4.50,4.00,,,1,8.04,1920x1080,0,2026-09-12,https://sloptv.co/test/animal-dog-shake
+"Kling 3.0",kling-3-0,animal-horse-gallop,animals,v1-magnific-2026-09,3.00,3.00,3.50,2.50,,,1,8.04,1920x1080,0,2026-09-12,https://sloptv.co/test/animal-horse-gallop
+"Kling 3.0",kling-3-0,style-anime-consistency,style,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,1,8.04,1920x1080,0,2026-09-12,https://sloptv.co/test/style-anime-consistency
+"Kling 3.0",kling-3-0,style-claymation,style,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,1,8.04,1920x1080,0,2026-09-12,https://sloptv.co/test/style-claymation
+"Kling 3.0",kling-3-0,style-film-grain,style,v1-magnific-2026-09,4.67,5.00,5.00,,4.00,,1,8.04,1920x1080,0,2026-09-12,https://sloptv.co/test/style-film-grain
+"Kling 3.0",kling-3-0,style-product-rotate,style,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,1,8.04,1920x1080,0,2026-09-12,https://sloptv.co/test/style-product-rotate
+"Kling 3.0",kling-3-0,i2v-landscape-motion,img2video,v1-magnific-2026-09,5.00,5.00,5.00,,,,1,8.04,1920x1080,0,2026-09-12,https://sloptv.co/test/i2v-landscape-motion
+"Kling 3.0",kling-3-0,i2v-old-photo,img2video,v1-magnific-2026-09,5.00,5.00,5.00,,,,1,8.04,1656x1248,0,2026-09-12,https://sloptv.co/test/i2v-old-photo
+"Kling 3.0",kling-3-0,i2v-portrait-animate,img2video,v1-magnific-2026-09,5.00,5.00,5.00,,,,1,8.04,1920x1080,0,2026-09-12,https://sloptv.co/test/i2v-portrait-animate
+"Kling 3.0",kling-3-0,i2v-product-spin,img2video,v1-magnific-2026-09,5.00,5.00,5.00,,,,1,8.04,1440x1440,0,2026-09-12,https://sloptv.co/test/i2v-product-spin
+"Kling 3.0 Turbo",kling-3-0-turbo,hands-chopping-vegetables,hands,v1-magnific-2026-09,5.00,5.00,5.00,5.00,5.00,5.00,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/hands-chopping-vegetables
+"Kling 3.0 Turbo",kling-3-0-turbo,hands-counting-fingers,hands,v1-magnific-2026-09,4.80,4.00,5.00,5.00,5.00,5.00,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/hands-counting-fingers
+"Kling 3.0 Turbo",kling-3-0-turbo,hands-playing-guitar,hands,v1-magnific-2026-09,5.00,5.00,5.00,5.00,5.00,5.00,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/hands-playing-guitar
+"Kling 3.0 Turbo",kling-3-0-turbo,hands-tying-shoelaces,hands,v1-magnific-2026-09,5.00,5.00,5.00,5.00,5.00,5.00,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/hands-tying-shoelaces
+"Kling 3.0 Turbo",kling-3-0-turbo,face-crowd-background,faces,v1-magnific-2026-09,4.88,4.80,4.80,4.80,5.00,5.00,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/face-crowd-background
+"Kling 3.0 Turbo",kling-3-0-turbo,face-elderly-detail,faces,v1-magnific-2026-09,5.00,5.00,5.00,5.00,5.00,5.00,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/face-elderly-detail
+"Kling 3.0 Turbo",kling-3-0-turbo,face-glasses-reflection,faces,v1-magnific-2026-09,5.00,5.00,5.00,5.00,5.00,5.00,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/face-glasses-reflection
+"Kling 3.0 Turbo",kling-3-0-turbo,face-turn-smile,faces,v1-magnific-2026-09,5.00,5.00,5.00,5.00,5.00,5.00,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/face-turn-smile
+"Kling 3.0 Turbo",kling-3-0-turbo,liquid-coffee-pour,liquids,v1-magnific-2026-09,4.60,4.50,4.50,4.50,4.50,5.00,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/liquid-coffee-pour
+"Kling 3.0 Turbo",kling-3-0-turbo,liquid-honey-drizzle,liquids,v1-magnific-2026-09,4.84,4.80,4.80,4.80,4.80,5.00,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/liquid-honey-drizzle
+"Kling 3.0 Turbo",kling-3-0-turbo,liquid-ice-melt,liquids,v1-magnific-2026-09,4.78,4.70,4.80,4.60,4.80,5.00,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/liquid-ice-melt
+"Kling 3.0 Turbo",kling-3-0-turbo,liquid-wave-crash,liquids,v1-magnific-2026-09,5.00,5.00,5.00,5.00,5.00,5.00,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/liquid-wave-crash
+"Kling 3.0 Turbo",kling-3-0-turbo,text-book-page,text_render,v1-magnific-2026-09,4.20,2.50,4.50,4.50,4.50,5.00,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/text-book-page
+"Kling 3.0 Turbo",kling-3-0-turbo,text-neon-sign,text_render,v1-magnific-2026-09,5.00,5.00,5.00,5.00,5.00,5.00,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/text-neon-sign
+"Kling 3.0 Turbo",kling-3-0-turbo,text-shop-front,text_render,v1-magnific-2026-09,5.00,5.00,5.00,5.00,5.00,5.00,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/text-shop-front
+"Kling 3.0 Turbo",kling-3-0-turbo,text-tshirt,text_render,v1-magnific-2026-09,4.90,5.00,5.00,4.50,5.00,5.00,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/text-tshirt
+"Kling 3.0 Turbo",kling-3-0-turbo,multishot-cafe-conversation,multishot,v1-magnific-2026-09,5.00,5.00,5.00,5.00,5.00,5.00,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/multishot-cafe-conversation
+"Kling 3.0 Turbo",kling-3-0-turbo,multishot-day-night,multishot,v1-magnific-2026-09,5.00,5.00,5.00,5.00,5.00,5.00,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/multishot-day-night
+"Kling 3.0 Turbo",kling-3-0-turbo,multishot-product-reveal,multishot,v1-magnific-2026-09,5.00,5.00,5.00,5.00,5.00,5.00,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/multishot-product-reveal
+"Kling 3.0 Turbo",kling-3-0-turbo,multishot-street-follow,multishot,v1-magnific-2026-09,5.00,5.00,5.00,5.00,5.00,5.00,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/multishot-street-follow
+"Kling 3.0 Turbo",kling-3-0-turbo,lipsync-accent-phrase,lipsync,v1-magnific-2026-09,4.90,4.90,4.90,4.80,4.90,5.00,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/lipsync-accent-phrase
+"Kling 3.0 Turbo",kling-3-0-turbo,lipsync-direct-address,lipsync,v1-magnific-2026-09,4.82,4.80,4.80,4.80,4.70,5.00,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/lipsync-direct-address
+"Kling 3.0 Turbo",kling-3-0-turbo,lipsync-singing,lipsync,v1-magnific-2026-09,4.92,4.90,4.90,4.90,4.90,5.00,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/lipsync-singing
+"Kling 3.0 Turbo",kling-3-0-turbo,lipsync-two-speakers,lipsync,v1-magnific-2026-09,4.82,4.80,4.80,4.70,4.80,5.00,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/lipsync-two-speakers
+"Kling 3.0 Turbo",kling-3-0-turbo,camera-crane-up,camera,v1-magnific-2026-09,3.80,2.50,5.00,3.00,3.50,5.00,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/camera-crane-up
+"Kling 3.0 Turbo",kling-3-0-turbo,camera-dolly-in-door,camera,v1-magnific-2026-09,5.00,5.00,5.00,5.00,5.00,5.00,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/camera-dolly-in-door
+"Kling 3.0 Turbo",kling-3-0-turbo,camera-handheld-follow,camera,v1-magnific-2026-09,5.00,5.00,5.00,5.00,5.00,5.00,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/camera-handheld-follow
+"Kling 3.0 Turbo",kling-3-0-turbo,camera-orbit-subject,camera,v1-magnific-2026-09,5.00,5.00,5.00,5.00,5.00,5.00,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/camera-orbit-subject
+"Kling 3.0 Turbo",kling-3-0-turbo,animal-bird-takeoff,animals,v1-magnific-2026-09,5.00,5.00,5.00,5.00,5.00,5.00,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/animal-bird-takeoff
+"Kling 3.0 Turbo",kling-3-0-turbo,animal-cat-jump,animals,v1-magnific-2026-09,5.00,5.00,5.00,5.00,5.00,5.00,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/animal-cat-jump
+"Kling 3.0 Turbo",kling-3-0-turbo,animal-dog-shake,animals,v1-magnific-2026-09,5.00,5.00,5.00,5.00,5.00,5.00,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/animal-dog-shake
+"Kling 3.0 Turbo",kling-3-0-turbo,animal-horse-gallop,animals,v1-magnific-2026-09,5.00,5.00,5.00,5.00,5.00,5.00,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/animal-horse-gallop
+"Kling 3.0 Turbo",kling-3-0-turbo,style-anime-consistency,style,v1-magnific-2026-09,4.86,5.00,4.80,4.50,5.00,5.00,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/style-anime-consistency
+"Kling 3.0 Turbo",kling-3-0-turbo,style-claymation,style,v1-magnific-2026-09,4.74,4.80,4.70,4.40,4.80,5.00,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/style-claymation
+"Kling 3.0 Turbo",kling-3-0-turbo,style-film-grain,style,v1-magnific-2026-09,4.60,3.80,4.80,4.80,4.60,5.00,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/style-film-grain
+"Kling 3.0 Turbo",kling-3-0-turbo,style-product-rotate,style,v1-magnific-2026-09,4.96,5.00,5.00,5.00,4.80,5.00,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/style-product-rotate
+"Kling 3.0 Turbo",kling-3-0-turbo,i2v-landscape-motion,img2video,v1-magnific-2026-09,5.00,5.00,5.00,5.00,5.00,5.00,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/i2v-landscape-motion
+"Kling 3.0 Turbo",kling-3-0-turbo,i2v-old-photo,img2video,v1-magnific-2026-09,5.00,5.00,5.00,5.00,5.00,5.00,,8.04,1104x832,1,2026-09-23,https://sloptv.co/test/i2v-old-photo
+"Kling 3.0 Turbo",kling-3-0-turbo,i2v-portrait-animate,img2video,v1-magnific-2026-09,5.00,5.00,5.00,5.00,5.00,5.00,,8.04,1280x720,1,2026-09-23,https://sloptv.co/test/i2v-portrait-animate
+"Kling 3.0 Turbo",kling-3-0-turbo,i2v-product-spin,img2video,v1-magnific-2026-09,5.00,5.00,5.00,5.00,5.00,5.00,,8.04,960x960,1,2026-09-23,https://sloptv.co/test/i2v-product-spin
+"PixVerse v5.5",pixverse-v5-5,hands-chopping-vegetables,hands,v1-magnific-2026-09,4.15,4.30,4.50,3.50,4.30,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/hands-chopping-vegetables
+"PixVerse v5.5",pixverse-v5-5,hands-counting-fingers,hands,v1-magnific-2026-09,5.00,5.00,5.00,5.00,5.00,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/hands-counting-fingers
+"PixVerse v5.5",pixverse-v5-5,hands-playing-guitar,hands,v1-magnific-2026-09,5.00,5.00,5.00,5.00,5.00,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/hands-playing-guitar
+"PixVerse v5.5",pixverse-v5-5,hands-tying-shoelaces,hands,v1-magnific-2026-09,5.00,5.00,5.00,5.00,5.00,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/hands-tying-shoelaces
+"PixVerse v5.5",pixverse-v5-5,face-crowd-background,faces,v1-magnific-2026-09,4.70,5.00,4.50,4.80,4.50,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/face-crowd-background
+"PixVerse v5.5",pixverse-v5-5,face-elderly-detail,faces,v1-magnific-2026-09,5.00,5.00,5.00,5.00,5.00,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/face-elderly-detail
+"PixVerse v5.5",pixverse-v5-5,face-glasses-reflection,faces,v1-magnific-2026-09,5.00,5.00,5.00,5.00,5.00,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/face-glasses-reflection
+"PixVerse v5.5",pixverse-v5-5,face-turn-smile,faces,v1-magnific-2026-09,5.00,5.00,5.00,5.00,5.00,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/face-turn-smile
+"PixVerse v5.5",pixverse-v5-5,liquid-coffee-pour,liquids,v1-magnific-2026-09,4.38,4.50,4.50,4.00,4.50,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/liquid-coffee-pour
+"PixVerse v5.5",pixverse-v5-5,liquid-honey-drizzle,liquids,v1-magnific-2026-09,3.90,4.00,4.30,3.00,4.30,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/liquid-honey-drizzle
+"PixVerse v5.5",pixverse-v5-5,liquid-ice-melt,liquids,v1-magnific-2026-09,4.10,4.30,4.00,3.80,4.30,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/liquid-ice-melt
+"PixVerse v5.5",pixverse-v5-5,liquid-wave-crash,liquids,v1-magnific-2026-09,4.15,4.50,3.80,4.00,4.30,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/liquid-wave-crash
+"PixVerse v5.5",pixverse-v5-5,text-book-page,text_render,v1-magnific-2026-09,4.73,4.30,4.80,5.00,4.80,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/text-book-page
+"PixVerse v5.5",pixverse-v5-5,text-neon-sign,text_render,v1-magnific-2026-09,5.00,5.00,5.00,5.00,5.00,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/text-neon-sign
+"PixVerse v5.5",pixverse-v5-5,text-shop-front,text_render,v1-magnific-2026-09,5.00,5.00,5.00,5.00,5.00,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/text-shop-front
+"PixVerse v5.5",pixverse-v5-5,text-tshirt,text_render,v1-magnific-2026-09,5.00,5.00,5.00,5.00,5.00,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/text-tshirt
+"PixVerse v5.5",pixverse-v5-5,multishot-cafe-conversation,multishot,v1-magnific-2026-09,4.88,4.50,5.00,5.00,5.00,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/multishot-cafe-conversation
+"PixVerse v5.5",pixverse-v5-5,multishot-day-night,multishot,v1-magnific-2026-09,3.98,3.00,4.30,4.30,4.30,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/multishot-day-night
+"PixVerse v5.5",pixverse-v5-5,multishot-product-reveal,multishot,v1-magnific-2026-09,4.70,3.80,5.00,5.00,5.00,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/multishot-product-reveal
+"PixVerse v5.5",pixverse-v5-5,multishot-street-follow,multishot,v1-magnific-2026-09,4.55,3.80,4.80,4.80,4.80,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/multishot-street-follow
+"PixVerse v5.5",pixverse-v5-5,lipsync-accent-phrase,lipsync,v1-magnific-2026-09,4.78,4.50,4.80,5.00,4.80,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/lipsync-accent-phrase
+"PixVerse v5.5",pixverse-v5-5,lipsync-direct-address,lipsync,v1-magnific-2026-09,3.75,2.50,4.50,4.50,3.50,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/lipsync-direct-address
+"PixVerse v5.5",pixverse-v5-5,lipsync-singing,lipsync,v1-magnific-2026-09,4.03,3.00,4.30,4.50,4.30,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/lipsync-singing
+"PixVerse v5.5",pixverse-v5-5,lipsync-two-speakers,lipsync,v1-magnific-2026-09,4.38,4.00,4.50,4.50,4.50,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/lipsync-two-speakers
+"PixVerse v5.5",pixverse-v5-5,camera-crane-up,camera,v1-magnific-2026-09,5.00,5.00,5.00,5.00,5.00,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/camera-crane-up
+"PixVerse v5.5",pixverse-v5-5,camera-dolly-in-door,camera,v1-magnific-2026-09,5.00,5.00,5.00,5.00,5.00,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/camera-dolly-in-door
+"PixVerse v5.5",pixverse-v5-5,camera-handheld-follow,camera,v1-magnific-2026-09,5.00,5.00,5.00,5.00,5.00,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/camera-handheld-follow
+"PixVerse v5.5",pixverse-v5-5,camera-orbit-subject,camera,v1-magnific-2026-09,4.88,4.50,5.00,5.00,5.00,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/camera-orbit-subject
+"PixVerse v5.5",pixverse-v5-5,animal-bird-takeoff,animals,v1-magnific-2026-09,3.38,2.50,4.00,3.00,4.00,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/animal-bird-takeoff
+"PixVerse v5.5",pixverse-v5-5,animal-cat-jump,animals,v1-magnific-2026-09,3.75,4.00,4.00,3.00,4.00,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/animal-cat-jump
+"PixVerse v5.5",pixverse-v5-5,animal-dog-shake,animals,v1-magnific-2026-09,4.90,4.80,5.00,4.80,5.00,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/animal-dog-shake
+"PixVerse v5.5",pixverse-v5-5,animal-horse-gallop,animals,v1-magnific-2026-09,3.98,4.30,4.00,3.30,4.30,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/animal-horse-gallop
+"PixVerse v5.5",pixverse-v5-5,style-anime-consistency,style,v1-magnific-2026-09,5.00,5.00,5.00,5.00,5.00,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/style-anime-consistency
+"PixVerse v5.5",pixverse-v5-5,style-claymation,style,v1-magnific-2026-09,4.60,4.50,4.80,4.30,4.80,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/style-claymation
+"PixVerse v5.5",pixverse-v5-5,style-film-grain,style,v1-magnific-2026-09,3.25,3.00,4.50,2.50,3.00,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/style-film-grain
+"PixVerse v5.5",pixverse-v5-5,style-product-rotate,style,v1-magnific-2026-09,4.63,3.50,5.00,5.00,5.00,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/style-product-rotate
+"PixVerse v5.5",pixverse-v5-5,i2v-landscape-motion,img2video,v1-magnific-2026-09,5.00,5.00,5.00,5.00,5.00,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/i2v-landscape-motion
+"PixVerse v5.5",pixverse-v5-5,i2v-old-photo,img2video,v1-magnific-2026-09,5.00,5.00,5.00,5.00,5.00,,,8.04,1280x960,0,2026-09-23,https://sloptv.co/test/i2v-old-photo
+"PixVerse v5.5",pixverse-v5-5,i2v-portrait-animate,img2video,v1-magnific-2026-09,5.00,5.00,5.00,5.00,5.00,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/i2v-portrait-animate
+"PixVerse v5.5",pixverse-v5-5,i2v-product-spin,img2video,v1-magnific-2026-09,4.73,4.50,4.80,4.80,4.80,,,8.04,1280x1280,0,2026-09-23,https://sloptv.co/test/i2v-product-spin
+"Runway Gen-4.5",runway-gen-4,hands-chopping-vegetables,hands,v1-magnific-2026-09,3.83,4.00,4.30,3.00,4.00,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/hands-chopping-vegetables
+"Runway Gen-4.5",runway-gen-4,hands-counting-fingers,hands,v1-magnific-2026-09,4.95,5.00,4.80,5.00,5.00,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/hands-counting-fingers
+"Runway Gen-4.5",runway-gen-4,hands-playing-guitar,hands,v1-magnific-2026-09,4.33,4.50,4.50,3.80,4.50,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/hands-playing-guitar
+"Runway Gen-4.5",runway-gen-4,hands-tying-shoelaces,hands,v1-magnific-2026-09,3.38,3.50,4.50,2.50,3.00,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/hands-tying-shoelaces
+"Runway Gen-4.5",runway-gen-4,face-crowd-background,faces,v1-magnific-2026-09,4.85,5.00,4.80,4.80,4.80,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/face-crowd-background
+"Runway Gen-4.5",runway-gen-4,face-elderly-detail,faces,v1-magnific-2026-09,5.00,5.00,5.00,5.00,5.00,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/face-elderly-detail
+"Runway Gen-4.5",runway-gen-4,face-glasses-reflection,faces,v1-magnific-2026-09,4.85,5.00,4.80,4.80,4.80,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/face-glasses-reflection
+"Runway Gen-4.5",runway-gen-4,face-turn-smile,faces,v1-magnific-2026-09,5.00,5.00,5.00,5.00,5.00,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/face-turn-smile
+"Runway Gen-4.5",runway-gen-4,liquid-coffee-pour,liquids,v1-magnific-2026-09,4.28,4.50,4.30,3.80,4.50,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/liquid-coffee-pour
+"Runway Gen-4.5",runway-gen-4,liquid-honey-drizzle,liquids,v1-magnific-2026-09,3.90,4.00,4.30,3.00,4.30,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/liquid-honey-drizzle
+"Runway Gen-4.5",runway-gen-4,liquid-ice-melt,liquids,v1-magnific-2026-09,4.15,4.30,4.00,4.00,4.30,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/liquid-ice-melt
+"Runway Gen-4.5",runway-gen-4,liquid-wave-crash,liquids,v1-magnific-2026-09,5.00,5.00,5.00,5.00,5.00,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/liquid-wave-crash
+"Runway Gen-4.5",runway-gen-4,text-book-page,text_render,v1-magnific-2026-09,4.73,4.30,4.80,5.00,4.80,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/text-book-page
+"Runway Gen-4.5",runway-gen-4,text-neon-sign,text_render,v1-magnific-2026-09,4.78,4.50,4.80,5.00,4.80,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/text-neon-sign
+"Runway Gen-4.5",runway-gen-4,text-shop-front,text_render,v1-magnific-2026-09,4.73,4.30,4.80,5.00,4.80,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/text-shop-front
+"Runway Gen-4.5",runway-gen-4,text-tshirt,text_render,v1-magnific-2026-09,5.00,5.00,5.00,5.00,5.00,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/text-tshirt
+"Runway Gen-4.5",runway-gen-4,multishot-cafe-conversation,multishot,v1-magnific-2026-09,4.70,3.80,5.00,5.00,5.00,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/multishot-cafe-conversation
+"Runway Gen-4.5",runway-gen-4,multishot-day-night,multishot,v1-magnific-2026-09,4.83,4.30,5.00,5.00,5.00,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/multishot-day-night
+"Runway Gen-4.5",runway-gen-4,multishot-product-reveal,multishot,v1-magnific-2026-09,4.33,3.80,4.50,4.50,4.50,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/multishot-product-reveal
+"Runway Gen-4.5",runway-gen-4,multishot-street-follow,multishot,v1-magnific-2026-09,4.70,3.80,5.00,5.00,5.00,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/multishot-street-follow
+"Runway Gen-4.5",runway-gen-4,lipsync-accent-phrase,lipsync,v1-magnific-2026-09,4.78,4.50,4.80,5.00,4.80,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/lipsync-accent-phrase
+"Runway Gen-4.5",runway-gen-4,lipsync-direct-address,lipsync,v1-magnific-2026-09,4.78,4.50,4.80,5.00,4.80,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/lipsync-direct-address
+"Runway Gen-4.5",runway-gen-4,lipsync-singing,lipsync,v1-magnific-2026-09,4.78,4.50,4.80,5.00,4.80,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/lipsync-singing
+"Runway Gen-4.5",runway-gen-4,lipsync-two-speakers,lipsync,v1-magnific-2026-09,4.78,4.50,4.80,5.00,4.80,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/lipsync-two-speakers
+"Runway Gen-4.5",runway-gen-4,camera-crane-up,camera,v1-magnific-2026-09,5.00,5.00,5.00,5.00,5.00,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/camera-crane-up
+"Runway Gen-4.5",runway-gen-4,camera-dolly-in-door,camera,v1-magnific-2026-09,5.00,5.00,5.00,5.00,5.00,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/camera-dolly-in-door
+"Runway Gen-4.5",runway-gen-4,camera-handheld-follow,camera,v1-magnific-2026-09,5.00,5.00,5.00,5.00,5.00,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/camera-handheld-follow
+"Runway Gen-4.5",runway-gen-4,camera-orbit-subject,camera,v1-magnific-2026-09,5.00,5.00,5.00,5.00,5.00,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/camera-orbit-subject
+"Runway Gen-4.5",runway-gen-4,animal-bird-takeoff,animals,v1-magnific-2026-09,4.03,4.30,4.00,3.50,4.30,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/animal-bird-takeoff
+"Runway Gen-4.5",runway-gen-4,animal-cat-jump,animals,v1-magnific-2026-09,3.75,4.00,4.00,3.00,4.00,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/animal-cat-jump
+"Runway Gen-4.5",runway-gen-4,animal-dog-shake,animals,v1-magnific-2026-09,5.00,5.00,5.00,5.00,5.00,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/animal-dog-shake
+"Runway Gen-4.5",runway-gen-4,animal-horse-gallop,animals,v1-magnific-2026-09,3.98,4.30,4.00,3.30,4.30,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/animal-horse-gallop
+"Runway Gen-4.5",runway-gen-4,style-anime-consistency,style,v1-magnific-2026-09,4.73,4.80,4.80,4.50,4.80,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/style-anime-consistency
+"Runway Gen-4.5",runway-gen-4,style-claymation,style,v1-magnific-2026-09,5.00,5.00,5.00,5.00,5.00,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/style-claymation
+"Runway Gen-4.5",runway-gen-4,style-film-grain,style,v1-magnific-2026-09,5.00,5.00,5.00,5.00,5.00,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/style-film-grain
+"Runway Gen-4.5",runway-gen-4,style-product-rotate,style,v1-magnific-2026-09,5.00,5.00,5.00,5.00,5.00,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/style-product-rotate
+"Runway Gen-4.5",runway-gen-4,i2v-landscape-motion,img2video,v1-magnific-2026-09,5.00,5.00,5.00,5.00,5.00,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/i2v-landscape-motion
+"Runway Gen-4.5",runway-gen-4,i2v-old-photo,img2video,v1-magnific-2026-09,4.15,4.30,4.00,4.30,4.00,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/i2v-old-photo
+"Runway Gen-4.5",runway-gen-4,i2v-portrait-animate,img2video,v1-magnific-2026-09,5.00,5.00,5.00,5.00,5.00,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/i2v-portrait-animate
+"Runway Gen-4.5",runway-gen-4,i2v-product-spin,img2video,v1-magnific-2026-09,4.20,4.50,4.00,4.00,4.30,,,8.04,1280x720,0,2026-09-23,https://sloptv.co/test/i2v-product-spin
+"Seedance 2.0",seedance-2-0,hands-chopping-vegetables,hands,v1-magnific-2026-09,2.83,3.00,3.50,2.00,,,,8.08,1920x1080,1,2026-09-13,https://sloptv.co/test/hands-chopping-vegetables
+"Seedance 2.0",seedance-2-0,hands-counting-fingers,hands,v1-magnific-2026-09,3.17,3.00,3.50,3.00,,,,8.08,1920x1080,1,2026-09-13,https://sloptv.co/test/hands-counting-fingers
+"Seedance 2.0",seedance-2-0,hands-playing-guitar,hands,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,,8.08,1920x1080,1,2026-09-13,https://sloptv.co/test/hands-playing-guitar
+"Seedance 2.0",seedance-2-0,hands-tying-shoelaces,hands,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,,8.08,1920x1080,1,2026-09-13,https://sloptv.co/test/hands-tying-shoelaces
+"Seedance 2.0",seedance-2-0,face-elderly-detail,faces,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,,8.08,1920x1080,1,2026-09-13,https://sloptv.co/test/face-elderly-detail
+"Seedance 2.0",seedance-2-0,face-glasses-reflection,faces,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,,8.08,1920x1080,1,2026-09-13,https://sloptv.co/test/face-glasses-reflection
+"Seedance 2.0",seedance-2-0,face-turn-smile,faces,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,,8.08,1920x1080,1,2026-09-13,https://sloptv.co/test/face-turn-smile
+"Seedance 2.0",seedance-2-0,liquid-coffee-pour,liquids,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,,8.08,1920x1080,1,2026-09-13,https://sloptv.co/test/liquid-coffee-pour
+"Seedance 2.0",seedance-2-0,liquid-honey-drizzle,liquids,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,,8.08,1920x1080,1,2026-09-13,https://sloptv.co/test/liquid-honey-drizzle
+"Seedance 2.0",seedance-2-0,liquid-ice-melt,liquids,v1-magnific-2026-09,3.50,4.50,4.00,2.00,,,,8.08,1920x1080,1,2026-09-13,https://sloptv.co/test/liquid-ice-melt
+"Seedance 2.0",seedance-2-0,liquid-wave-crash,liquids,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,,8.08,1920x1080,1,2026-09-13,https://sloptv.co/test/liquid-wave-crash
+"Seedance 2.0",seedance-2-0,text-book-page,text_render,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,,8.08,1920x1080,1,2026-09-13,https://sloptv.co/test/text-book-page
+"Seedance 2.0",seedance-2-0,text-neon-sign,text_render,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,,8.08,1920x1080,1,2026-09-13,https://sloptv.co/test/text-neon-sign
+"Seedance 2.0",seedance-2-0,text-shop-front,text_render,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,,8.08,1920x1080,1,2026-09-13,https://sloptv.co/test/text-shop-front
+"Seedance 2.0",seedance-2-0,text-tshirt,text_render,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,,8.08,1920x1080,1,2026-09-13,https://sloptv.co/test/text-tshirt
+"Seedance 2.0",seedance-2-0,multishot-cafe-conversation,multishot,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,,8.08,1920x1080,1,2026-09-13,https://sloptv.co/test/multishot-cafe-conversation
+"Seedance 2.0",seedance-2-0,multishot-day-night,multishot,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,,8.08,1920x1080,1,2026-09-13,https://sloptv.co/test/multishot-day-night
+"Seedance 2.0",seedance-2-0,multishot-product-reveal,multishot,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,,8.08,1920x1080,1,2026-09-13,https://sloptv.co/test/multishot-product-reveal
+"Seedance 2.0",seedance-2-0,multishot-street-follow,multishot,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,,8.08,1920x1080,1,2026-09-13,https://sloptv.co/test/multishot-street-follow
+"Seedance 2.0",seedance-2-0,lipsync-accent-phrase,lipsync,v1-magnific-2026-09,5.00,5.00,5.00,,,5.00,,8.08,1920x1080,1,2026-09-13,https://sloptv.co/test/lipsync-accent-phrase
+"Seedance 2.0",seedance-2-0,lipsync-direct-address,lipsync,v1-magnific-2026-09,5.00,5.00,5.00,,,5.00,,8.08,1920x1080,1,2026-09-13,https://sloptv.co/test/lipsync-direct-address
+"Seedance 2.0",seedance-2-0,lipsync-singing,lipsync,v1-magnific-2026-09,5.00,5.00,5.00,,,5.00,,8.08,1920x1080,1,2026-09-13,https://sloptv.co/test/lipsync-singing
+"Seedance 2.0",seedance-2-0,lipsync-two-speakers,lipsync,v1-magnific-2026-09,5.00,5.00,5.00,,,5.00,,8.08,1920x1080,1,2026-09-13,https://sloptv.co/test/lipsync-two-speakers
+"Seedance 2.0",seedance-2-0,camera-crane-up,camera,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,,8.08,1920x1080,1,2026-09-13,https://sloptv.co/test/camera-crane-up
+"Seedance 2.0",seedance-2-0,camera-dolly-in-door,camera,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,,8.08,1920x1080,1,2026-09-13,https://sloptv.co/test/camera-dolly-in-door
+"Seedance 2.0",seedance-2-0,camera-handheld-follow,camera,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,,8.08,1920x1080,1,2026-09-13,https://sloptv.co/test/camera-handheld-follow
+"Seedance 2.0",seedance-2-0,camera-orbit-subject,camera,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,,8.08,1920x1080,1,2026-09-13,https://sloptv.co/test/camera-orbit-subject
+"Seedance 2.0",seedance-2-0,animal-bird-takeoff,animals,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,,8.08,1920x1080,1,2026-09-13,https://sloptv.co/test/animal-bird-takeoff
+"Seedance 2.0",seedance-2-0,animal-cat-jump,animals,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,,8.08,1920x1080,1,2026-09-13,https://sloptv.co/test/animal-cat-jump
+"Seedance 2.0",seedance-2-0,animal-dog-shake,animals,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,,8.08,1920x1080,1,2026-09-13,https://sloptv.co/test/animal-dog-shake
+"Seedance 2.0",seedance-2-0,animal-horse-gallop,animals,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,,8.08,1920x1080,1,2026-09-13,https://sloptv.co/test/animal-horse-gallop
+"Seedance 2.0",seedance-2-0,style-anime-consistency,style,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,,8.08,1920x1080,1,2026-09-13,https://sloptv.co/test/style-anime-consistency
+"Seedance 2.0",seedance-2-0,style-claymation,style,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,,8.08,1920x1080,1,2026-09-13,https://sloptv.co/test/style-claymation
+"Seedance 2.0",seedance-2-0,style-film-grain,style,v1-magnific-2026-09,4.00,2.50,4.50,,5.00,,,8.08,1920x1080,1,2026-09-13,https://sloptv.co/test/style-film-grain
+"Seedance 2.0",seedance-2-0,style-product-rotate,style,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,,8.08,1920x1080,1,2026-09-13,https://sloptv.co/test/style-product-rotate
+"Seedance 2.0",seedance-2-0,i2v-landscape-motion,img2video,v1-magnific-2026-09,5.00,5.00,5.00,,,,,8.08,1920x1080,1,2026-09-13,https://sloptv.co/test/i2v-landscape-motion
+"Seedance 2.0",seedance-2-0,i2v-old-photo,img2video,v1-magnific-2026-09,5.00,5.00,5.00,,,,,8.08,1664x1248,1,2026-09-13,https://sloptv.co/test/i2v-old-photo
+"Seedance 2.0",seedance-2-0,i2v-portrait-animate,img2video,v1-magnific-2026-09,5.00,5.00,5.00,,,,,8.08,1920x1080,1,2026-09-13,https://sloptv.co/test/i2v-portrait-animate
+"Seedance 2.0",seedance-2-0,i2v-product-spin,img2video,v1-magnific-2026-09,5.00,5.00,5.00,,,,,8.08,1440x1440,1,2026-09-13,https://sloptv.co/test/i2v-product-spin
+"Seedance 2.5",seedance-2-5,hands-chopping-vegetables,hands,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,,8.06,1920x1080,1,2026-09-13,https://sloptv.co/test/hands-chopping-vegetables
+"Seedance 2.5",seedance-2-5,hands-counting-fingers,hands,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,,8.06,1920x1080,1,2026-09-13,https://sloptv.co/test/hands-counting-fingers
+"Seedance 2.5",seedance-2-5,hands-playing-guitar,hands,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,,8.06,1920x1080,1,2026-09-13,https://sloptv.co/test/hands-playing-guitar
+"Seedance 2.5",seedance-2-5,hands-tying-shoelaces,hands,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,,8.06,1920x1080,1,2026-09-13,https://sloptv.co/test/hands-tying-shoelaces
+"Seedance 2.5",seedance-2-5,face-crowd-background,faces,v1-magnific-2026-09,3.50,4.00,4.00,,2.50,,,8.06,1920x1080,1,2026-09-13,https://sloptv.co/test/face-crowd-background
+"Seedance 2.5",seedance-2-5,face-elderly-detail,faces,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,2,8.06,1920x1080,1,2026-09-13,https://sloptv.co/test/face-elderly-detail
+"Seedance 2.5",seedance-2-5,face-glasses-reflection,faces,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,2,8.06,1920x1080,1,2026-09-13,https://sloptv.co/test/face-glasses-reflection
+"Seedance 2.5",seedance-2-5,face-turn-smile,faces,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,,8.06,1920x1080,1,2026-09-13,https://sloptv.co/test/face-turn-smile
+"Seedance 2.5",seedance-2-5,liquid-coffee-pour,liquids,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,,8.06,1920x1080,1,2026-09-13,https://sloptv.co/test/liquid-coffee-pour
+"Seedance 2.5",seedance-2-5,liquid-honey-drizzle,liquids,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,,8.06,1920x1080,1,2026-09-13,https://sloptv.co/test/liquid-honey-drizzle
+"Seedance 2.5",seedance-2-5,liquid-ice-melt,liquids,v1-magnific-2026-09,3.50,4.50,4.00,2.00,,,,8.06,1920x1080,1,2026-09-13,https://sloptv.co/test/liquid-ice-melt
+"Seedance 2.5",seedance-2-5,liquid-wave-crash,liquids,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,,8.06,1920x1080,1,2026-09-13,https://sloptv.co/test/liquid-wave-crash
+"Seedance 2.5",seedance-2-5,text-book-page,text_render,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,,8.06,1920x1080,1,2026-09-13,https://sloptv.co/test/text-book-page
+"Seedance 2.5",seedance-2-5,text-neon-sign,text_render,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,,8.06,1920x1080,1,2026-09-13,https://sloptv.co/test/text-neon-sign
+"Seedance 2.5",seedance-2-5,text-shop-front,text_render,v1-magnific-2026-09,3.67,2.00,4.50,,4.50,,,8.06,1920x1080,1,2026-09-13,https://sloptv.co/test/text-shop-front
+"Seedance 2.5",seedance-2-5,text-tshirt,text_render,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,,8.06,1920x1080,1,2026-09-13,https://sloptv.co/test/text-tshirt
+"Seedance 2.5",seedance-2-5,multishot-cafe-conversation,multishot,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,,8.06,1920x1080,1,2026-09-13,https://sloptv.co/test/multishot-cafe-conversation
+"Seedance 2.5",seedance-2-5,multishot-day-night,multishot,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,,8.06,1920x1080,1,2026-09-13,https://sloptv.co/test/multishot-day-night
+"Seedance 2.5",seedance-2-5,multishot-product-reveal,multishot,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,,8.06,1920x1080,1,2026-09-13,https://sloptv.co/test/multishot-product-reveal
+"Seedance 2.5",seedance-2-5,lipsync-accent-phrase,lipsync,v1-magnific-2026-09,5.00,5.00,5.00,,,5.00,,8.06,1920x1080,1,2026-09-13,https://sloptv.co/test/lipsync-accent-phrase
+"Seedance 2.5",seedance-2-5,lipsync-direct-address,lipsync,v1-magnific-2026-09,5.00,5.00,5.00,,,5.00,,8.06,1920x1080,1,2026-09-13,https://sloptv.co/test/lipsync-direct-address
+"Seedance 2.5",seedance-2-5,lipsync-singing,lipsync,v1-magnific-2026-09,5.00,5.00,5.00,,,5.00,,8.06,1920x1080,1,2026-09-13,https://sloptv.co/test/lipsync-singing
+"Seedance 2.5",seedance-2-5,lipsync-two-speakers,lipsync,v1-magnific-2026-09,5.00,5.00,5.00,,,5.00,,8.06,1920x1080,1,2026-09-13,https://sloptv.co/test/lipsync-two-speakers
+"Seedance 2.5",seedance-2-5,camera-crane-up,camera,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,,8.06,1920x1080,1,2026-09-13,https://sloptv.co/test/camera-crane-up
+"Seedance 2.5",seedance-2-5,camera-dolly-in-door,camera,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,,8.06,1920x1080,1,2026-09-13,https://sloptv.co/test/camera-dolly-in-door
+"Seedance 2.5",seedance-2-5,camera-handheld-follow,camera,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,,8.06,1920x1080,1,2026-09-13,https://sloptv.co/test/camera-handheld-follow
+"Seedance 2.5",seedance-2-5,camera-orbit-subject,camera,v1-magnific-2026-09,3.50,2.00,4.50,4.00,,,,8.06,1920x1080,1,2026-09-13,https://sloptv.co/test/camera-orbit-subject
+"Seedance 2.5",seedance-2-5,animal-bird-takeoff,animals,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,,8.06,1920x1080,1,2026-09-13,https://sloptv.co/test/animal-bird-takeoff
+"Seedance 2.5",seedance-2-5,animal-cat-jump,animals,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,,8.06,1920x1080,1,2026-09-13,https://sloptv.co/test/animal-cat-jump
+"Seedance 2.5",seedance-2-5,animal-dog-shake,animals,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,,8.06,1920x1080,1,2026-09-13,https://sloptv.co/test/animal-dog-shake
+"Seedance 2.5",seedance-2-5,animal-horse-gallop,animals,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,,8.06,1920x1080,1,2026-09-13,https://sloptv.co/test/animal-horse-gallop
+"Seedance 2.5",seedance-2-5,style-anime-consistency,style,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,,8.06,1920x1080,1,2026-09-13,https://sloptv.co/test/style-anime-consistency
+"Seedance 2.5",seedance-2-5,style-claymation,style,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,,8.06,1920x1080,1,2026-09-13,https://sloptv.co/test/style-claymation
+"Seedance 2.5",seedance-2-5,style-film-grain,style,v1-magnific-2026-09,4.00,2.50,4.50,,5.00,,,8.06,1920x1080,1,2026-09-13,https://sloptv.co/test/style-film-grain
+"Seedance 2.5",seedance-2-5,style-product-rotate,style,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,,8.06,1920x1080,1,2026-09-13,https://sloptv.co/test/style-product-rotate
+"Seedance 2.5",seedance-2-5,i2v-landscape-motion,img2video,v1-magnific-2026-09,5.00,5.00,5.00,,,,,8.06,1920x1080,1,2026-09-13,https://sloptv.co/test/i2v-landscape-motion
+"Seedance 2.5",seedance-2-5,i2v-old-photo,img2video,v1-magnific-2026-09,5.00,5.00,5.00,,,,,8.06,1430x1080,1,2026-09-13,https://sloptv.co/test/i2v-old-photo
+"Seedance 2.5",seedance-2-5,i2v-portrait-animate,img2video,v1-magnific-2026-09,5.00,5.00,5.00,,,,,8.06,1920x1080,1,2026-09-13,https://sloptv.co/test/i2v-portrait-animate
+"Seedance 2.5",seedance-2-5,i2v-product-spin,img2video,v1-magnific-2026-09,5.00,5.00,5.00,,,,,8.06,1080x1080,1,2026-09-13,https://sloptv.co/test/i2v-product-spin
+"OpenAI Sora 2",sora-2,hands-chopping-vegetables,hands,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,1,8.00,1280x720,1,2026-09-12,https://sloptv.co/test/hands-chopping-vegetables
+"OpenAI Sora 2",sora-2,hands-counting-fingers,hands,v1-magnific-2026-09,4.83,4.50,5.00,5.00,,,1,8.00,1280x720,1,2026-09-12,https://sloptv.co/test/hands-counting-fingers
+"OpenAI Sora 2",sora-2,hands-playing-guitar,hands,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,1,8.00,1280x720,1,2026-09-12,https://sloptv.co/test/hands-playing-guitar
+"OpenAI Sora 2",sora-2,hands-tying-shoelaces,hands,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,1,8.00,1280x720,1,2026-09-12,https://sloptv.co/test/hands-tying-shoelaces
+"OpenAI Sora 2",sora-2,face-crowd-background,faces,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,1,8.00,1280x720,1,2026-09-12,https://sloptv.co/test/face-crowd-background
+"OpenAI Sora 2",sora-2,face-elderly-detail,faces,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,1,8.00,1280x720,1,2026-09-12,https://sloptv.co/test/face-elderly-detail
+"OpenAI Sora 2",sora-2,face-glasses-reflection,faces,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,1,8.00,1280x720,1,2026-09-12,https://sloptv.co/test/face-glasses-reflection
+"OpenAI Sora 2",sora-2,face-turn-smile,faces,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,1,8.00,1280x720,1,2026-09-12,https://sloptv.co/test/face-turn-smile
+"OpenAI Sora 2",sora-2,liquid-coffee-pour,liquids,v1-magnific-2026-09,3.33,4.00,3.50,2.50,,,1,8.00,1280x720,1,2026-09-12,https://sloptv.co/test/liquid-coffee-pour
+"OpenAI Sora 2",sora-2,liquid-honey-drizzle,liquids,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,1,8.00,1280x720,1,2026-09-12,https://sloptv.co/test/liquid-honey-drizzle
+"OpenAI Sora 2",sora-2,liquid-ice-melt,liquids,v1-magnific-2026-09,3.50,4.50,4.00,2.00,,,1,8.00,1280x720,1,2026-09-12,https://sloptv.co/test/liquid-ice-melt
+"OpenAI Sora 2",sora-2,liquid-wave-crash,liquids,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,1,8.00,1280x720,1,2026-09-12,https://sloptv.co/test/liquid-wave-crash
+"OpenAI Sora 2",sora-2,text-book-page,text_render,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,1,8.00,1280x720,1,2026-09-12,https://sloptv.co/test/text-book-page
+"OpenAI Sora 2",sora-2,text-neon-sign,text_render,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,1,8.00,1280x720,1,2026-09-12,https://sloptv.co/test/text-neon-sign
+"OpenAI Sora 2",sora-2,text-shop-front,text_render,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,1,8.00,1280x720,1,2026-09-12,https://sloptv.co/test/text-shop-front
+"OpenAI Sora 2",sora-2,text-tshirt,text_render,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,1,8.00,1280x720,1,2026-09-12,https://sloptv.co/test/text-tshirt
+"OpenAI Sora 2",sora-2,multishot-cafe-conversation,multishot,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,1,8.00,1280x720,1,2026-09-12,https://sloptv.co/test/multishot-cafe-conversation
+"OpenAI Sora 2",sora-2,multishot-day-night,multishot,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,1,8.00,1280x720,1,2026-09-12,https://sloptv.co/test/multishot-day-night
+"OpenAI Sora 2",sora-2,multishot-product-reveal,multishot,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,1,8.00,1280x720,1,2026-09-12,https://sloptv.co/test/multishot-product-reveal
+"OpenAI Sora 2",sora-2,multishot-street-follow,multishot,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,1,8.00,1280x720,1,2026-09-12,https://sloptv.co/test/multishot-street-follow
+"OpenAI Sora 2",sora-2,lipsync-accent-phrase,lipsync,v1-magnific-2026-09,5.00,5.00,5.00,,,5.00,1,8.00,1280x720,1,2026-09-12,https://sloptv.co/test/lipsync-accent-phrase
+"OpenAI Sora 2",sora-2,lipsync-direct-address,lipsync,v1-magnific-2026-09,5.00,5.00,5.00,,,5.00,1,8.00,1280x720,1,2026-09-12,https://sloptv.co/test/lipsync-direct-address
+"OpenAI Sora 2",sora-2,lipsync-singing,lipsync,v1-magnific-2026-09,5.00,5.00,5.00,,,5.00,1,8.00,1280x720,1,2026-09-12,https://sloptv.co/test/lipsync-singing
+"OpenAI Sora 2",sora-2,lipsync-two-speakers,lipsync,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,5.00,1,8.00,1280x720,1,2026-09-12,https://sloptv.co/test/lipsync-two-speakers
+"OpenAI Sora 2",sora-2,camera-crane-up,camera,v1-magnific-2026-09,3.83,2.50,4.50,4.50,,,1,8.00,1280x720,1,2026-09-12,https://sloptv.co/test/camera-crane-up
+"OpenAI Sora 2",sora-2,camera-dolly-in-door,camera,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,1,8.00,1280x720,1,2026-09-12,https://sloptv.co/test/camera-dolly-in-door
+"OpenAI Sora 2",sora-2,camera-handheld-follow,camera,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,1,8.00,1280x720,1,2026-09-12,https://sloptv.co/test/camera-handheld-follow
+"OpenAI Sora 2",sora-2,camera-orbit-subject,camera,v1-magnific-2026-09,2.83,2.00,4.00,2.50,,,1,8.00,1280x720,1,2026-09-12,https://sloptv.co/test/camera-orbit-subject
+"OpenAI Sora 2",sora-2,animal-bird-takeoff,animals,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,1,8.00,1280x720,1,2026-09-12,https://sloptv.co/test/animal-bird-takeoff
+"OpenAI Sora 2",sora-2,animal-cat-jump,animals,v1-magnific-2026-09,3.83,4.00,4.50,3.00,,,1,8.00,1280x720,1,2026-09-12,https://sloptv.co/test/animal-cat-jump
+"OpenAI Sora 2",sora-2,animal-dog-shake,animals,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,1,8.00,1280x720,1,2026-09-12,https://sloptv.co/test/animal-dog-shake
+"OpenAI Sora 2",sora-2,animal-horse-gallop,animals,v1-magnific-2026-09,4.00,4.00,4.50,3.50,,,1,8.00,1280x720,1,2026-09-12,https://sloptv.co/test/animal-horse-gallop
+"OpenAI Sora 2",sora-2,style-anime-consistency,style,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,1,8.00,1280x720,1,2026-09-12,https://sloptv.co/test/style-anime-consistency
+"OpenAI Sora 2",sora-2,style-claymation,style,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,1,8.00,1280x720,1,2026-09-12,https://sloptv.co/test/style-claymation
+"OpenAI Sora 2",sora-2,style-film-grain,style,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,1,8.00,1280x720,1,2026-09-12,https://sloptv.co/test/style-film-grain
+"OpenAI Sora 2",sora-2,style-product-rotate,style,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,1,8.00,1280x720,1,2026-09-12,https://sloptv.co/test/style-product-rotate
+"OpenAI Sora 2",sora-2,i2v-landscape-motion,img2video,v1-magnific-2026-09,5.00,5.00,5.00,,,,1,8.30,1280x720,1,2026-09-12,https://sloptv.co/test/i2v-landscape-motion
+"OpenAI Sora 2",sora-2,i2v-old-photo,img2video,v1-magnific-2026-09,5.00,5.00,5.00,,,,1,8.30,1280x720,1,2026-09-12,https://sloptv.co/test/i2v-old-photo
+"OpenAI Sora 2",sora-2,i2v-portrait-animate,img2video,v1-magnific-2026-09,5.00,5.00,5.00,,,,1,8.30,1280x720,1,2026-09-12,https://sloptv.co/test/i2v-portrait-animate
+"OpenAI Sora 2",sora-2,i2v-product-spin,img2video,v1-magnific-2026-09,5.00,5.00,5.00,,,,1,8.30,1280x720,1,2026-09-12,https://sloptv.co/test/i2v-product-spin
+"Google Veo 3.1",veo-3-1,hands-chopping-vegetables,hands,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,,8.00,1920x1080,1,2026-09-14,https://sloptv.co/test/hands-chopping-vegetables
+"Google Veo 3.1",veo-3-1,hands-counting-fingers,hands,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,,8.00,1920x1080,1,2026-09-14,https://sloptv.co/test/hands-counting-fingers
+"Google Veo 3.1",veo-3-1,hands-playing-guitar,hands,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,,8.00,1920x1080,1,2026-09-14,https://sloptv.co/test/hands-playing-guitar
+"Google Veo 3.1",veo-3-1,hands-tying-shoelaces,hands,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,,8.00,1920x1080,1,2026-09-14,https://sloptv.co/test/hands-tying-shoelaces
+"Google Veo 3.1",veo-3-1,face-crowd-background,faces,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,,8.00,1920x1080,1,2026-09-14,https://sloptv.co/test/face-crowd-background
+"Google Veo 3.1",veo-3-1,face-elderly-detail,faces,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,,8.00,1920x1080,1,2026-09-14,https://sloptv.co/test/face-elderly-detail
+"Google Veo 3.1",veo-3-1,face-glasses-reflection,faces,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,,8.00,1920x1080,1,2026-09-14,https://sloptv.co/test/face-glasses-reflection
+"Google Veo 3.1",veo-3-1,face-turn-smile,faces,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,,8.00,1920x1080,1,2026-09-14,https://sloptv.co/test/face-turn-smile
+"Google Veo 3.1",veo-3-1,liquid-coffee-pour,liquids,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,,8.00,1920x1080,1,2026-09-14,https://sloptv.co/test/liquid-coffee-pour
+"Google Veo 3.1",veo-3-1,liquid-honey-drizzle,liquids,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,,8.00,1920x1080,1,2026-09-14,https://sloptv.co/test/liquid-honey-drizzle
+"Google Veo 3.1",veo-3-1,liquid-ice-melt,liquids,v1-magnific-2026-09,1.83,2.00,2.50,1.00,,,,8.00,1920x1080,1,2026-09-14,https://sloptv.co/test/liquid-ice-melt
+"Google Veo 3.1",veo-3-1,liquid-wave-crash,liquids,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,,8.00,1920x1080,1,2026-09-14,https://sloptv.co/test/liquid-wave-crash
+"Google Veo 3.1",veo-3-1,text-book-page,text_render,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,,8.00,1920x1080,1,2026-09-14,https://sloptv.co/test/text-book-page
+"Google Veo 3.1",veo-3-1,text-neon-sign,text_render,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,,8.00,1920x1080,1,2026-09-14,https://sloptv.co/test/text-neon-sign
+"Google Veo 3.1",veo-3-1,text-shop-front,text_render,v1-magnific-2026-09,2.17,1.50,3.00,,2.00,,,8.00,1920x1080,1,2026-09-14,https://sloptv.co/test/text-shop-front
+"Google Veo 3.1",veo-3-1,text-tshirt,text_render,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,,8.00,1920x1080,1,2026-09-14,https://sloptv.co/test/text-tshirt
+"Google Veo 3.1",veo-3-1,multishot-cafe-conversation,multishot,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,,8.00,1920x1080,1,2026-09-14,https://sloptv.co/test/multishot-cafe-conversation
+"Google Veo 3.1",veo-3-1,multishot-day-night,multishot,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,,8.00,1920x1080,1,2026-09-14,https://sloptv.co/test/multishot-day-night
+"Google Veo 3.1",veo-3-1,multishot-product-reveal,multishot,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,,8.00,1920x1080,1,2026-09-14,https://sloptv.co/test/multishot-product-reveal
+"Google Veo 3.1",veo-3-1,multishot-street-follow,multishot,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,,8.00,1920x1080,1,2026-09-14,https://sloptv.co/test/multishot-street-follow
+"Google Veo 3.1",veo-3-1,lipsync-accent-phrase,lipsync,v1-magnific-2026-09,4.17,4.00,4.50,,,4.00,,8.00,1920x1080,1,2026-09-14,https://sloptv.co/test/lipsync-accent-phrase
+"Google Veo 3.1",veo-3-1,lipsync-direct-address,lipsync,v1-magnific-2026-09,4.17,4.00,4.50,,,4.00,,8.00,1920x1080,1,2026-09-14,https://sloptv.co/test/lipsync-direct-address
+"Google Veo 3.1",veo-3-1,lipsync-singing,lipsync,v1-magnific-2026-09,5.00,5.00,5.00,,,5.00,,8.00,1920x1080,1,2026-09-14,https://sloptv.co/test/lipsync-singing
+"Google Veo 3.1",veo-3-1,lipsync-two-speakers,lipsync,v1-magnific-2026-09,4.67,4.50,5.00,,,4.50,,8.00,1920x1080,1,2026-09-14,https://sloptv.co/test/lipsync-two-speakers
+"Google Veo 3.1",veo-3-1,camera-crane-up,camera,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,,8.00,1920x1080,1,2026-09-14,https://sloptv.co/test/camera-crane-up
+"Google Veo 3.1",veo-3-1,camera-dolly-in-door,camera,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,,8.00,1920x1080,1,2026-09-14,https://sloptv.co/test/camera-dolly-in-door
+"Google Veo 3.1",veo-3-1,camera-handheld-follow,camera,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,,8.00,1920x1080,1,2026-09-14,https://sloptv.co/test/camera-handheld-follow
+"Google Veo 3.1",veo-3-1,camera-orbit-subject,camera,v1-magnific-2026-09,2.50,2.50,3.00,2.00,,,,8.00,1920x1080,1,2026-09-14,https://sloptv.co/test/camera-orbit-subject
+"Google Veo 3.1",veo-3-1,animal-bird-takeoff,animals,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,,8.00,1920x1080,1,2026-09-14,https://sloptv.co/test/animal-bird-takeoff
+"Google Veo 3.1",veo-3-1,animal-cat-jump,animals,v1-magnific-2026-09,4.33,4.50,4.50,4.00,,,,8.00,1920x1080,1,2026-09-14,https://sloptv.co/test/animal-cat-jump
+"Google Veo 3.1",veo-3-1,animal-dog-shake,animals,v1-magnific-2026-09,5.00,5.00,5.00,5.00,,,,8.00,1920x1080,1,2026-09-14,https://sloptv.co/test/animal-dog-shake
+"Google Veo 3.1",veo-3-1,animal-horse-gallop,animals,v1-magnific-2026-09,3.00,3.00,3.50,2.50,,,,8.00,1920x1080,1,2026-09-14,https://sloptv.co/test/animal-horse-gallop
+"Google Veo 3.1",veo-3-1,style-anime-consistency,style,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,,8.00,1920x1080,1,2026-09-14,https://sloptv.co/test/style-anime-consistency
+"Google Veo 3.1",veo-3-1,style-claymation,style,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,,8.00,1920x1080,1,2026-09-14,https://sloptv.co/test/style-claymation
+"Google Veo 3.1",veo-3-1,style-film-grain,style,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,,8.00,1920x1080,1,2026-09-14,https://sloptv.co/test/style-film-grain
+"Google Veo 3.1",veo-3-1,style-product-rotate,style,v1-magnific-2026-09,5.00,5.00,5.00,,5.00,,,8.00,1920x1080,1,2026-09-14,https://sloptv.co/test/style-product-rotate
+"Google Veo 3.1",veo-3-1,i2v-landscape-motion,img2video,v1-magnific-2026-09,5.00,5.00,5.00,,,,,8.00,1920x1080,1,2026-09-14,https://sloptv.co/test/i2v-landscape-motion
+"Google Veo 3.1",veo-3-1,i2v-old-photo,img2video,v1-magnific-2026-09,5.00,5.00,5.00,,,,,8.00,1920x1080,1,2026-09-14,https://sloptv.co/test/i2v-old-photo
+"Google Veo 3.1",veo-3-1,i2v-portrait-animate,img2video,v1-magnific-2026-09,5.00,5.00,5.00,,,,,8.00,1920x1080,1,2026-09-14,https://sloptv.co/test/i2v-portrait-animate
+"Google Veo 3.1",veo-3-1,i2v-product-spin,img2video,v1-magnific-2026-09,5.00,5.00,5.00,,,,,8.00,1920x1080,1,2026-09-14,https://sloptv.co/test/i2v-product-spin

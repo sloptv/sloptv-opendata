@@ -1,0 +1,281 @@
+{
+    "name": "sloptv-ai-video-benchmark",
+    "title": "SlopTV AI video benchmark scores and prices",
+    "description": "Independent benchmark scores and published prices for AI video generation models.",
+    "homepage": "https://sloptv.co/data",
+    "licenses": [
+        {
+            "name": "CC-BY-4.0",
+            "path": "https://creativecommons.org/licenses/by/4.0/",
+            "title": "Creative Commons Attribution 4.0"
+        }
+    ],
+    "sources": [
+        {
+            "title": "SlopTV",
+            "path": "https://sloptv.co"
+        }
+    ],
+    "resources": [
+        {
+            "name": "leaderboard",
+            "path": "data/leaderboard.csv",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "description": "One row per model: overall score, 95% confidence interval, sub-scores and the score in each test category.",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "rank",
+                        "description": "Position by overall score (1 = best)"
+                    },
+                    {
+                        "name": "model",
+                        "description": "Model name"
+                    },
+                    {
+                        "name": "slug",
+                        "description": "Model id, also used in https://sloptv.co/model/{slug}"
+                    },
+                    {
+                        "name": "company",
+                        "description": "Maker"
+                    },
+                    {
+                        "name": "overall",
+                        "description": "Mean overall score across all clips, 0 to 5"
+                    },
+                    {
+                        "name": "ci95",
+                        "description": "Half-width of the 95% confidence interval of overall"
+                    },
+                    {
+                        "name": "fidelity",
+                        "description": "Prompt fidelity, 0 to 5"
+                    },
+                    {
+                        "name": "visual",
+                        "description": "Visual quality, 0 to 5"
+                    },
+                    {
+                        "name": "physics",
+                        "description": "Physical plausibility, 0 to 5"
+                    },
+                    {
+                        "name": "consistency",
+                        "description": "Temporal and identity consistency, 0 to 5"
+                    },
+                    {
+                        "name": "audio",
+                        "description": "Audio quality and sync, 0 to 5 (empty when the model has no audio)"
+                    },
+                    {
+                        "name": "attempts_until_usable",
+                        "description": "Mean generations needed for a usable clip (empty when not recorded)"
+                    },
+                    {
+                        "name": "runs",
+                        "description": "Clips scored"
+                    },
+                    {
+                        "name": "hands",
+                        "description": "Overall score within that test category (hands, faces, liquids, text_render, multishot, lipsync, camera, animals, style, img2video)"
+                    },
+                    {
+                        "name": "faces",
+                        "description": "Overall score within that test category (hands, faces, liquids, text_render, multishot, lipsync, camera, animals, style, img2video)"
+                    },
+                    {
+                        "name": "liquids",
+                        "description": "Overall score within that test category (hands, faces, liquids, text_render, multishot, lipsync, camera, animals, style, img2video)"
+                    },
+                    {
+                        "name": "text_render",
+                        "description": "Overall score within that test category (hands, faces, liquids, text_render, multishot, lipsync, camera, animals, style, img2video)"
+                    },
+                    {
+                        "name": "multishot",
+                        "description": "Overall score within that test category (hands, faces, liquids, text_render, multishot, lipsync, camera, animals, style, img2video)"
+                    },
+                    {
+                        "name": "lipsync",
+                        "description": "Overall score within that test category (hands, faces, liquids, text_render, multishot, lipsync, camera, animals, style, img2video)"
+                    },
+                    {
+                        "name": "camera",
+                        "description": "Overall score within that test category (hands, faces, liquids, text_render, multishot, lipsync, camera, animals, style, img2video)"
+                    },
+                    {
+                        "name": "animals",
+                        "description": "Overall score within that test category (hands, faces, liquids, text_render, multishot, lipsync, camera, animals, style, img2video)"
+                    },
+                    {
+                        "name": "style",
+                        "description": "Overall score within that test category (hands, faces, liquids, text_render, multishot, lipsync, camera, animals, style, img2video)"
+                    },
+                    {
+                        "name": "img2video",
+                        "description": "Overall score within that test category (hands, faces, liquids, text_render, multishot, lipsync, camera, animals, style, img2video)"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "scores",
+            "path": "data/scores.csv",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "description": "One row per scored clip: model, prompt, category, round and every judge score, with a link to the clip.",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "model",
+                        "description": "Model name"
+                    },
+                    {
+                        "name": "model_slug",
+                        "description": "Model id"
+                    },
+                    {
+                        "name": "prompt",
+                        "description": "Prompt id, also used in https://sloptv.co/test/{prompt}"
+                    },
+                    {
+                        "name": "category",
+                        "description": "Test category"
+                    },
+                    {
+                        "name": "round",
+                        "description": "Benchmark round label"
+                    },
+                    {
+                        "name": "score_overall",
+                        "description": "Overall score, 0 to 5"
+                    },
+                    {
+                        "name": "score_fidelity",
+                        "description": "Prompt fidelity"
+                    },
+                    {
+                        "name": "score_visual",
+                        "description": "Visual quality"
+                    },
+                    {
+                        "name": "score_physics",
+                        "description": "Physical plausibility"
+                    },
+                    {
+                        "name": "score_consistency",
+                        "description": "Consistency"
+                    },
+                    {
+                        "name": "score_audio",
+                        "description": "Audio"
+                    },
+                    {
+                        "name": "attempts_until_usable",
+                        "description": "Generations needed for a usable clip"
+                    },
+                    {
+                        "name": "duration_s",
+                        "description": "Clip length in seconds"
+                    },
+                    {
+                        "name": "resolution",
+                        "description": "Output resolution"
+                    },
+                    {
+                        "name": "has_audio",
+                        "description": "1 if the clip has an audio track"
+                    },
+                    {
+                        "name": "run_at",
+                        "description": "Generation date (UTC)"
+                    },
+                    {
+                        "name": "clip_page",
+                        "description": "Page where the clip and its scores can be watched"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "prices",
+            "path": "data/prices.csv",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "description": "Current published prices on every platform and API we track, normalised to USD per clip and per second.",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "model",
+                        "description": "Model name"
+                    },
+                    {
+                        "name": "model_slug",
+                        "description": "Model id, also used in https://sloptv.co/radar/{model_slug}"
+                    },
+                    {
+                        "name": "platform",
+                        "description": "Platform or API selling it"
+                    },
+                    {
+                        "name": "mode",
+                        "description": "Model tier or speed mode as sold"
+                    },
+                    {
+                        "name": "task",
+                        "description": "Text-to-video, image-to-video, etc. (empty when the price is the same for all)"
+                    },
+                    {
+                        "name": "resolution",
+                        "description": "Output resolution"
+                    },
+                    {
+                        "name": "audio",
+                        "description": "1 if the price includes generated audio"
+                    },
+                    {
+                        "name": "duration_s",
+                        "description": "Clip length the price refers to"
+                    },
+                    {
+                        "name": "plan",
+                        "description": "Subscription plan the credit price is computed on (empty for pay-as-you-go APIs)"
+                    },
+                    {
+                        "name": "plan_usd_month",
+                        "description": "Monthly price of that plan in USD"
+                    },
+                    {
+                        "name": "usd_per_clip",
+                        "description": "Cost of one clip of duration_s seconds, USD"
+                    },
+                    {
+                        "name": "usd_per_second",
+                        "description": "Same, per second of video"
+                    },
+                    {
+                        "name": "is_entry_plan",
+                        "description": "1 for the cheapest plan that can run the model"
+                    },
+                    {
+                        "name": "is_best_plan",
+                        "description": "1 for the plan with the lowest cost per clip"
+                    },
+                    {
+                        "name": "exact",
+                        "description": "1 if read directly from the published price, 0 if derived (for example scaled to another clip length)"
+                    },
+                    {
+                        "name": "promo",
+                        "description": "1 if it is a time-limited promotional price"
+                    }
+                ]
+            }
+        }
+    ]
+}

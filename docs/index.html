@@ -1,0 +1,35 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SlopTV open data: AI video benchmark scores and prices</title>
+<meta name="description" content="Free CSV dataset of AI video model benchmark scores and platform prices from SlopTV, under CC BY 4.0.">
+<link rel="canonical" href="https://sloptv.co/data">
+<style>body{font:16px/1.55 system-ui,-apple-system,Segoe UI,sans-serif;max-width:46rem;margin:0 auto;padding:2rem 16px;color:#1a1a1a;background:#fff}
+a{color:#c2185b}table{border-collapse:collapse;width:100%;font-size:15px}th,td{text-align:left;padding:.4rem .5rem;border-bottom:1px solid #e5e5e5}
+.n{text-align:right;font-variant-numeric:tabular-nums}code{background:#f3f3f3;padding:.1rem .3rem;border-radius:4px}
+@media (prefers-color-scheme:dark){body{background:#111;color:#eee}a{color:#ff6fa5}th,td{border-color:#333}code{background:#222}}</style>
+</head><body>
+<h1>SlopTV open data</h1>
+<p>The dataset behind <a href="https://sloptv.co">SlopTV</a>, an independent benchmark and price tracker for AI video generation.
+Every model runs the same 40 prompts, every clip is scored, and prices are read twice a day across 15 platforms and APIs.</p>
+<h2>Current leaderboard</h2>
+<table><thead><tr><th>#</th><th>Model</th><th>Maker</th><th class="n">Overall</th><th class="n">95% CI</th></tr></thead><tbody>
+<tr><td>1</td><td><a href="https://sloptv.co/model/gemini-omni">Google Gemini Omni</a></td><td>Google</td><td class="n">4.91</td><td class="n">±0.04</td></tr>
+<tr><td>2</td><td><a href="https://sloptv.co/model/kling-3-0-turbo">Kling 3.0 Turbo</a></td><td>Kuaishou</td><td class="n">4.89</td><td class="n">±0.07</td></tr>
+<tr><td>3</td><td><a href="https://sloptv.co/model/flux-3">FLUX 3</a></td><td>Black Forest Labs</td><td class="n">4.83</td><td class="n">±0.11</td></tr>
+<tr><td>4</td><td><a href="https://sloptv.co/model/seedance-2-0">Seedance 2.0</a></td><td>ByteDance</td><td class="n">4.83</td><td class="n">±0.16</td></tr>
+<tr><td>5</td><td><a href="https://sloptv.co/model/seedance-2-5">Seedance 2.5</a></td><td>ByteDance</td><td class="n">4.82</td><td class="n">±0.15</td></tr>
+<tr><td>6</td><td><a href="https://sloptv.co/model/hailuo-h3">MiniMax H3</a></td><td>MiniMax</td><td class="n">4.81</td><td class="n">±0.22</td></tr>
+<tr><td>7</td><td><a href="https://sloptv.co/model/sora-2">OpenAI Sora 2</a></td><td>OpenAI</td><td class="n">4.78</td><td class="n">±0.17</td></tr>
+<tr><td>8</td><td><a href="https://sloptv.co/model/grok-video">Grok Video</a></td><td>xAI</td><td class="n">4.67</td><td class="n">±0.19</td></tr>
+<tr><td>9</td><td><a href="https://sloptv.co/model/veo-3-1">Google Veo 3.1</a></td><td>Google</td><td class="n">4.67</td><td class="n">±0.25</td></tr>
+<tr><td>10</td><td><a href="https://sloptv.co/model/runway-gen-4">Runway Gen-4.5</a></td><td>Runway</td><td class="n">4.63</td><td class="n">±0.14</td></tr>
+<tr><td>11</td><td><a href="https://sloptv.co/model/pixverse-v5-5">PixVerse v5.5</a></td><td>PixVerse</td><td class="n">4.58</td><td class="n">±0.16</td></tr>
+<tr><td>12</td><td><a href="https://sloptv.co/model/kling-3-0">Kling 3.0</a></td><td>Kuaishou</td><td class="n">4.45</td><td class="n">±0.20</td></tr>
+<tr><td>13</td><td><a href="https://sloptv.co/model/hailuo-02">MiniMax Hailuo 02</a></td><td>MiniMax</td><td class="n">3.93</td><td class="n">±0.47</td></tr>
+</tbody></table>
+<p>Live version with every clip: <a href="https://sloptv.co/leaderboard">sloptv.co/leaderboard</a>. Where each model is cheapest: <a href="https://sloptv.co/radar">the price radar</a>.</p>
+<h2>Download</h2>
+<ul><li><a href="https://github.com/sloptv/sloptv-opendata/blob/main/data/leaderboard.csv">leaderboard.csv</a> (13 rows): One row per model: overall score, 95% confidence interval, sub-scores and the score in each test category.</li><li><a href="https://github.com/sloptv/sloptv-opendata/blob/main/data/scores.csv">scores.csv</a> (518 rows): One row per scored clip: model, prompt, category, round and every judge score, with a link to the clip.</li><li><a href="https://github.com/sloptv/sloptv-opendata/blob/main/data/prices.csv">prices.csv</a> (10,111 rows): Current published prices on every platform and API we track, normalised to USD per clip and per second.</li></ul>
+<p>Column definitions are in the <a href="https://github.com/sloptv/sloptv-opendata#columns">repository README</a>. Methodology: <a href="https://sloptv.co/methodology">sloptv.co/methodology</a>.</p>
+<h2>License</h2>
+<p>CC BY 4.0. Free to use, including commercially, with attribution and a link: <code>Source: &lt;a href="https://sloptv.co"&gt;SlopTV&lt;/a&gt;</code></p>
+</body></html>

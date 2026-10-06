@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this data, please cite it and link to https://sloptv.co"
+type: dataset
+title: "SlopTV AI video benchmark scores and prices"
+authors:
+  - name: "SlopTV"
+    website: "https://sloptv.co"
+url: "https://sloptv.co/data"
+repository-code: "https://github.com/sloptv/sloptv-opendata"
+license: CC-BY-4.0
+keywords:
+  - ai-video
+  - text-to-video
+  - benchmark
+  - pricing
+  - dataset
