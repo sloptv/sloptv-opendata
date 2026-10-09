@@ -9,6 +9,14 @@ camera moves and more), every clip is scored, and published prices are tracked t
 - Updated automatically every day. The git history of `data/prices.csv` is a day-by-day record of AI video prices:
   each commit's diff shows exactly which prices moved. All prices in a commit were read on the date in its message.
 
+## Latest changes (2026-10-06)
+
+#### Dataset
+
+- First public release of this dataset on GitHub: 13 models, 518 scored clips and 10,111 prices from 15 platforms and APIs.
+
+[All changes, day by day](CHANGELOG.md)
+
 Browse it on the site: [leaderboard](https://sloptv.co/leaderboard) · [price radar](https://sloptv.co/radar) · [methodology](https://sloptv.co/methodology) · [open data page](https://sloptv.co/data)
 
 ## Current leaderboard
