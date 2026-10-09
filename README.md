@@ -5,7 +5,7 @@ Every model runs the same 40 fixed prompts across 10 categories (hands, faces, l
 camera moves and more), every clip is scored, and published prices are tracked twice a day across 15 platforms and APIs.
 
 - **13 models** benchmarked, **518 scored clips**
-- **10,111 prices** for 14 models, last read 2026-10-08
+- **10,111 prices** for 14 models, last read 2026-10-09
 - Updated automatically every day. The git history of `data/prices.csv` is a day-by-day record of AI video prices:
   each commit's diff shows exactly which prices moved. All prices in a commit were read on the date in its message.
 
