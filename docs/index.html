@@ -9,7 +9,7 @@ a{color:#c2185b}table{border-collapse:collapse;width:100%;font-size:15px}th,td{t
 </head><body>
 <h1>SlopTV open data</h1>
 <p>The dataset behind <a href="https://sloptv.co">SlopTV</a>, an independent benchmark and price tracker for AI video generation.
-Every model runs the same 40 prompts, every clip is scored, and prices are read twice a day across 15 platforms and APIs.</p>
+Every model runs the same 40 prompts, every clip is scored, and prices are read twice a day across 16 platforms and APIs.</p>
 <h2>Current leaderboard</h2>
 <table><thead><tr><th>#</th><th>Model</th><th>Maker</th><th class="n">Overall</th><th class="n">95% CI</th></tr></thead><tbody>
 <tr><td>1</td><td><a href="https://sloptv.co/model/gemini-omni">Google Gemini Omni</a></td><td>Google</td><td class="n">4.91</td><td class="n">±0.04</td></tr>
@@ -28,7 +28,7 @@ Every model runs the same 40 prompts, every clip is scored, and prices are read 
 </tbody></table>
 <p>Live version with every clip: <a href="https://sloptv.co/leaderboard">sloptv.co/leaderboard</a>. Where each model is cheapest: <a href="https://sloptv.co/radar">the price radar</a>.</p>
 <h2>Download</h2>
-<ul><li><a href="https://github.com/sloptv/sloptv-opendata/blob/main/data/leaderboard.csv">leaderboard.csv</a> (13 rows): One row per model: overall score, 95% confidence interval, sub-scores and the score in each test category.</li><li><a href="https://github.com/sloptv/sloptv-opendata/blob/main/data/scores.csv">scores.csv</a> (518 rows): One row per scored clip: model, prompt, category, round and every judge score, with a link to the clip.</li><li><a href="https://github.com/sloptv/sloptv-opendata/blob/main/data/prices.csv">prices.csv</a> (10,111 rows): Current published prices on every platform and API we track, normalised to USD per clip and per second.</li></ul>
+<ul><li><a href="https://github.com/sloptv/sloptv-opendata/blob/main/data/leaderboard.csv">leaderboard.csv</a> (13 rows): One row per model: overall score, 95% confidence interval, sub-scores and the score in each test category.</li><li><a href="https://github.com/sloptv/sloptv-opendata/blob/main/data/scores.csv">scores.csv</a> (518 rows): One row per scored clip: model, prompt, category, round and every judge score, with a link to the clip.</li><li><a href="https://github.com/sloptv/sloptv-opendata/blob/main/data/prices.csv">prices.csv</a> (10,649 rows): Current published prices on every platform and API we track, normalised to USD per clip and per second.</li></ul>
 <p>Column definitions are in the <a href="https://github.com/sloptv/sloptv-opendata#columns">repository README</a>. Methodology: <a href="https://sloptv.co/methodology">sloptv.co/methodology</a>.</p>
 <h2>License</h2>
 <p>CC BY 4.0. Free to use, including commercially, with attribution and a link: <code>Source: &lt;a href="https://sloptv.co"&gt;SlopTV&lt;/a&gt;</code></p>

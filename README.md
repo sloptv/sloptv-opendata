@@ -2,18 +2,32 @@
 
 Open dataset behind [SlopTV](https://sloptv.co), an independent benchmark and price tracker for AI video generation.
 Every model runs the same 40 fixed prompts across 10 categories (hands, faces, liquids, text, lip-sync,
-camera moves and more), every clip is scored, and published prices are tracked twice a day across 15 platforms and APIs.
+camera moves and more), every clip is scored, and published prices are tracked twice a day across 16 platforms and APIs.
 
 - **13 models** benchmarked, **518 scored clips**
-- **10,111 prices** for 14 models, last read 2026-10-09
+- **10,649 prices** for 14 models, last read 2026-10-10
 - Updated automatically every day. The git history of `data/prices.csv` is a day-by-day record of AI video prices:
   each commit's diff shows exactly which prices moved. All prices in a commit were read on the date in its message.
 
-## Latest changes (2026-10-06)
+## Latest changes (2026-10-10)
 
-#### Dataset
+#### Prices
 
-- First public release of this dataset on GitHub: 13 models, 518 scored clips and 10,111 prices from 15 platforms and APIs.
+- **Kie.ai is now the cheapest place to run Google Gemini Omni** at 720p ($0.063/s), ahead of OpenArt ($0.0826/s). [Compare](https://sloptv.co/radar/gemini-omni)
+- **Kie.ai is now the cheapest place to run Google Gemini Omni** at 1080p ($0.063/s), ahead of Higgsfield ($0.09/s). [Compare](https://sloptv.co/radar/gemini-omni)
+- **Kie.ai is now the cheapest place to run Grok Video** at 480p ($0.012/s), ahead of fal.ai ($0.05/s). [Compare](https://sloptv.co/radar/grok-video)
+- **Kie.ai is now the cheapest place to run Grok Video** at 720p ($0.0225/s), ahead of OpenArt ($0.066/s). [Compare](https://sloptv.co/radar/grok-video)
+- **Kie.ai is now the cheapest place to run Grok Video** at v1.5 480p ($0.012/s), ahead of Higgsfield ($0.075/s). [Compare](https://sloptv.co/radar/grok-video)
+- **Kie.ai is now the cheapest place to run Grok Video** at v1.5 720p ($0.0225/s), ahead of Runway ($0.128/s). [Compare](https://sloptv.co/radar/grok-video)
+- **Kie.ai is now the cheapest place to run MiniMax Hailuo 02** at 512p ($0.01/s), ahead of Replicate ($0.015/s). [Compare](https://sloptv.co/radar/hailuo-02)
+- **Kie.ai is now the cheapest place to run MiniMax Hailuo 02** at 768p ($0.025/s), ahead of Higgsfield ($0.03/s). [Compare](https://sloptv.co/radar/hailuo-02)
+- **Kie.ai is now the cheapest place to run MiniMax H3** at 768p ($0.04/s), ahead of fal.ai ($0.06/s). [Compare](https://sloptv.co/radar/hailuo-h3)
+- **Kie.ai is now the cheapest place to run Kling 3.0** at 720p ($0.07/s), ahead of Kling API ($0.084/s). [Compare](https://sloptv.co/radar/kling-3-0)
+- **Kie.ai is now the cheapest place to run Kling 3.0 Turbo** at pro 1080p ($0.113/s), ahead of Kling API ($0.14/s). [Compare](https://sloptv.co/radar/kling-3-0-turbo)
+- **Kie.ai is now the cheapest place to run Google Veo 3.1** at fast 4k, fast 720p, fast 1080p, lite 720p, lite 1080p, 720p and 1080p, ahead of fal.ai. [Compare](https://sloptv.co/radar/veo-3-1)
+- **Kie.ai is now the cheapest place to run Google Veo 3.1** at 4k ($0.231/s), ahead of Magnific ($0.343/s). [Compare](https://sloptv.co/radar/veo-3-1)
+
+[Full list of changes](CHANGELOG.md)
 
 [All changes, day by day](CHANGELOG.md)
 
@@ -45,7 +59,7 @@ Full table with sub-scores and per-category scores: [`data/leaderboard.csv`](dat
 |---|---:|---|
 | [`data/leaderboard.csv`](data/leaderboard.csv) | 13 | One row per model: overall score, 95% confidence interval, sub-scores and the score in each test category. |
 | [`data/scores.csv`](data/scores.csv) | 518 | One row per scored clip: model, prompt, category, round and every judge score, with a link to the clip. |
-| [`data/prices.csv`](data/prices.csv) | 10,111 | Current published prices on every platform and API we track, normalised to USD per clip and per second. |
+| [`data/prices.csv`](data/prices.csv) | 10,649 | Current published prices on every platform and API we track, normalised to USD per clip and per second. |
 
 All files are UTF-8 CSV with a header row. [`datapackage.json`](datapackage.json) describes them in the [Frictionless Data](https://frictionlessdata.io/) format.
 
@@ -122,7 +136,7 @@ round instead of rewriting old results. Details and known limits: [methodology](
 
 **Prices.** What each platform publishes for a US visitor, before tax, read twice a day (06:00 and 18:00 UTC). Credit and
 subscription prices are converted to dollars assuming the plan's credits are spent on that model. Moves larger than 25% are
-held for a manual check before they are published. Platforms tracked: Black Forest Labs API, BytePlus ModelArk, fal.ai, Google Gemini API, Higgsfield, Higgsfield API, Kling API, Luma API, Magnific, MiniMax API, OpenArt, Replicate, Runway, Runway API, xAI API.
+held for a manual check before they are published. Platforms tracked: Black Forest Labs API, BytePlus ModelArk, fal.ai, Google Gemini API, Higgsfield, Higgsfield API, Kie.ai, Kling API, Luma API, Magnific, MiniMax API, OpenArt, Replicate, Runway, Runway API, xAI API.
 How the radar works: [sloptv.co/radar](https://sloptv.co/radar).
 
 Found an error? Open an issue or write to press@sloptv.co.
